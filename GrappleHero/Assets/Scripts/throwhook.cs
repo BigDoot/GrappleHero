@@ -23,25 +23,31 @@ public class throwhook : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            Vector2 destiny = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
             if (!ropeActive)
             {
-                Vector2 destiny = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                curHook = (GameObject) Instantiate(hook, transform.position, Quaternion.identity);
+                RaycastHit2D hit = Physics2D.Raycast(destiny, Vector2.zero);
 
-                curHook.GetComponent<RopeScript>().destiny = destiny;
+                if (hit != null && hit.collider != null)
+                {
+                    curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);
 
-                ropeActive = true;
+                    curHook.GetComponent<RopeScript>().destiny = destiny;
+
+                    ropeActive = true;
+                }
             }
-            else
-            {
-                //delete rope
+        }
 
-                Destroy(curHook);
+        if (Input.GetMouseButtonDown(1))
+        {
+            //delete rope
 
-                ropeActive = false;
+            Destroy(curHook);
 
-            }
+            ropeActive = false;
         }
 
 
