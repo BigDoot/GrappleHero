@@ -7,10 +7,12 @@ public class Hazard : MonoBehaviour
     private PlayerMovement player;
     public Transform start;
     public GameObject Explode;
+    private throwhook throwHook;
 
     void Start()
     {
         player = FindObjectOfType<PlayerMovement>();
+        throwHook = FindObjectOfType<throwhook>(); // find throwhook script
     }
 
     void Update()
@@ -28,6 +30,8 @@ public class Hazard : MonoBehaviour
 
     {
         Instantiate(Explode, player.transform.position, player.transform.rotation);
+        Destroy(throwHook.curHook);
+        throwHook.ropeActive = false;
         player.enabled = false;
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.GetComponent<Renderer>().enabled = false;

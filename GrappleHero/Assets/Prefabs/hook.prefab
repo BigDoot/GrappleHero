@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -8870856996673385743}
   m_Layer: 10
   m_Name: hook
-  m_TagString: Player
+  m_TagString: Grappling Hook
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

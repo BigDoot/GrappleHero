@@ -8,6 +8,7 @@ TagManager:
   - UI
   - Collectibles
   - Hazards
+  - Grappling Hook
   layers:
   - Default
   - TransparentFX
