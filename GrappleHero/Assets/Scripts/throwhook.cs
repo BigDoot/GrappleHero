@@ -10,7 +10,7 @@ public class throwhook : MonoBehaviour
 
     public bool ropeActive;
 
-    GameObject curHook;
+    public GameObject curHook;
 
     public float ropeLength = 7f;
 
