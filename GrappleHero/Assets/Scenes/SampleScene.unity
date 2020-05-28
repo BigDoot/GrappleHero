@@ -2113,6 +2113,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hook: {fileID: 7167158993028837982, guid: 70c5335127f423e4e9765af565d4684f, type: 3}
+  ropeActive: 0
+  ropeLength: 7
+  grappleMask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!4 &835101752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,

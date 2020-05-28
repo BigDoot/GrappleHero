@@ -12,6 +12,10 @@ public class throwhook : MonoBehaviour
 
     GameObject curHook;
 
+    public float ropeLength = 7f;
+
+    public LayerMask grappleMask;
+
     // Use this for initialization
     void Start()
     {
@@ -28,13 +32,13 @@ public class throwhook : MonoBehaviour
             if (!ropeActive)
             {
 
-                RaycastHit2D hit = Physics2D.Raycast(destiny, Vector2.zero);
+               // RaycastHit2D hit = Physics2D.Raycast(destiny, Vector2.zero);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, destiny - (Vector2)transform.position, ropeLength, grappleMask); // shoot raycast from player to destiny of length ropeLength
 
-                if (hit != null && hit.collider != null)
+                if (hit.collider != null)
                 {
-                    curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);
-
-                    curHook.GetComponent<RopeScript>().destiny = destiny;
+                    curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);            
+                    curHook.GetComponent<RopeScript>().destiny = hit.point;
 
                     ropeActive = true;
                 }
