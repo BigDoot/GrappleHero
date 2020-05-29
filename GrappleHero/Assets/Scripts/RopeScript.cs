@@ -15,6 +15,8 @@ public class RopeScript : MonoBehaviour {
 
 	public GameObject player;
 
+	public GameObject playerwep;
+
 	public GameObject lastNode;
 
     public List<GameObject> Nodes = new List<GameObject>();
@@ -25,7 +27,7 @@ public class RopeScript : MonoBehaviour {
 
 	bool done = false;
 
-	public GameObject impactEffect;
+	public GameObject sparksEffect;
 
 	public int damage = 1;
 
@@ -35,7 +37,6 @@ public class RopeScript : MonoBehaviour {
         lr = GetComponent<LineRenderer>();
 
 		player = GameObject.FindGameObjectWithTag("Player");
-
 
 		lastNode = transform.gameObject;
 
@@ -111,9 +112,11 @@ public class RopeScript : MonoBehaviour {
 		if (enemy != null)
         {
 			enemy.TakeDamage(damage);
-			//Invoke("DestroySelf", 1f);
+			Destroy(player.GetComponent<throwhook>().curHook);
+			player.GetComponent<throwhook>().ropeActive = false;
 
-        }
-		Instantiate(impactEffect, transform.position, transform.rotation);
+		}
+		Instantiate(sparksEffect, transform.position, transform.rotation);
     }
 }
+

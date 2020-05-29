@@ -17,7 +17,9 @@ public class Patrol : MonoBehaviour
 
         RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2f);
         RaycastHit2D faceInfo = Physics2D.Raycast(faceDetection.position, Vector2.right, 0.2f, layermask);
-        if (groundInfo.collider == false || faceInfo.collider == true)
+        RaycastHit2D faceInfo2 = Physics2D.Raycast(groundDetection.position, Vector2.right, 0.2f, layermask);
+
+        if (groundInfo.collider == false || faceInfo.collider == true || faceInfo2.collider == true)
         {
             if (movingRight)
             {
