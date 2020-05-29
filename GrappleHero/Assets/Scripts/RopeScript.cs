@@ -25,12 +25,17 @@ public class RopeScript : MonoBehaviour {
 
 	bool done = false;
 
+	public GameObject impactEffect;
+
+	public int damage = 1;
+
 	// Use this for initialization
 	void Start() {
 
         lr = GetComponent<LineRenderer>();
 
 		player = GameObject.FindGameObjectWithTag("Player");
+
 
 		lastNode = transform.gameObject;
 
@@ -94,4 +99,21 @@ public class RopeScript : MonoBehaviour {
 
         vertexCount++;
 	}
+
+    private void DestroySelf()
+    {
+		Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+		Enemy1 enemy = hitInfo.GetComponent<Enemy1>();
+		if (enemy != null)
+        {
+			enemy.TakeDamage(damage);
+			//Invoke("DestroySelf", 1f);
+
+        }
+		Instantiate(impactEffect, transform.position, transform.rotation);
+    }
 }
