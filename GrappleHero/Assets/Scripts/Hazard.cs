@@ -28,7 +28,8 @@ public class Hazard : MonoBehaviour
         if (other.tag == "Player")
         {
             StartCoroutine("respawndelay");
-        } else if (other.tag == "Enemy")
+        }
+        else if (other.tag == "Enemy")
         {
             Instantiate(EnemyDeathEffect, other.gameObject.transform.position, other.gameObject.transform.rotation);
             Destroy(other.gameObject);

@@ -17,7 +17,7 @@ public class Enemy1 : MonoBehaviour
         }
     }
 
-    void Die()
+    public void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
