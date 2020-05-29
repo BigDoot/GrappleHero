@@ -171,6 +171,8 @@ MonoBehaviour:
   lr: {fileID: 0}
   sparksEffect: {fileID: 3841229950713837355, guid: cb9ddb97fcf8e1b4baf62314f02c9962,
     type: 3}
+  hitEnemySparksEffect: {fileID: 3841229950713837355, guid: df41ae3012f362a44ba35394ceef3300,
+    type: 3}
   damage: 1
 --- !u!120 &-8870856996673385743
 LineRenderer:

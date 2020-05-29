@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-public class RopeScript : MonoBehaviour {
+public class RopeScript : MonoBehaviour { // can think of this script as the "bullet"
 
 	public Vector2 destiny;
 
@@ -28,6 +28,8 @@ public class RopeScript : MonoBehaviour {
 	bool done = false;
 
 	public GameObject sparksEffect;
+
+	public GameObject hitEnemySparksEffect;
 
 	public int damage = 1;
 
@@ -112,6 +114,7 @@ public class RopeScript : MonoBehaviour {
 		if (enemy != null)
         {
 			enemy.TakeDamage(damage);
+			Instantiate(hitEnemySparksEffect, transform.position, transform.rotation);
 			Destroy(player.GetComponent<throwhook>().curHook);
 			player.GetComponent<throwhook>().ropeActive = false;
 

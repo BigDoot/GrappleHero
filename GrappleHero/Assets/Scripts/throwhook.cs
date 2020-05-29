@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class throwhook : MonoBehaviour
+public class throwhook : MonoBehaviour // can think of this script as the "weapon"
 {
-
 
     public GameObject hook;
 

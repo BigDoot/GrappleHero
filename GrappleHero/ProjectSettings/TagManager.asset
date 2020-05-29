@@ -9,6 +9,7 @@ TagManager:
   - Collectibles
   - Hazards
   - Grappling Hook
+  - Enemy
   layers:
   - Default
   - TransparentFX

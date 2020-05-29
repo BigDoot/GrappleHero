@@ -152,7 +152,7 @@ Transform:
   - {fileID: 972191340}
   - {fileID: 1235429249}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72724331
 GameObject:
@@ -186,7 +186,7 @@ Transform:
   - {fileID: 2033382661}
   - {fileID: 637596051}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &72827517 stripped
 Transform:
@@ -251,12 +251,12 @@ PrefabInstance:
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.68
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.53
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
@@ -590,7 +590,7 @@ Transform:
   - {fileID: 1786593945}
   - {fileID: 72827517}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &352986353 stripped
 Transform:
@@ -643,7 +643,7 @@ Transform:
   - {fileID: 1096757625}
   - {fileID: 454394793}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!19719996 &388440200
 TilemapCollider2D:
@@ -1781,7 +1781,7 @@ RectTransform:
   m_Children:
   - {fileID: 472391151}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1993,6 +1993,7 @@ GameObject:
   - component: {fileID: 784246248}
   - component: {fileID: 784246249}
   - component: {fileID: 784246250}
+  - component: {fileID: 784246251}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -2151,7 +2152,7 @@ Transform:
   - {fileID: 126629698}
   - {fileID: 1106806199}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &784246247
 MonoBehaviour:
@@ -2226,6 +2227,23 @@ MonoBehaviour:
   grappleMask:
     serializedVersion: 2
     m_Bits: 2049
+--- !u!114 &784246251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784246241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee297cda00642f246afa0915cd5393df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullhealth: 1
+  health: 1
+  respawnTime: 2
+  start: {fileID: 1560628103360589176, guid: cdd6a97f535f0284cad45586b5a8011d, type: 3}
+  Explode: {fileID: 6829213836761035622, guid: 0a617ca44b7d28f4c92ee2c0ada300bf, type: 3}
 --- !u!1 &812164595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2255,7 @@ GameObject:
   - component: {fileID: 812164596}
   m_Layer: 0
   m_Name: Ball Monsters
-  m_TagString: Hazards
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10783,12 +10801,12 @@ PrefabInstance:
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.98
+      value: -53.6
       objectReference: {fileID: 0}
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.53
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
@@ -11522,7 +11540,7 @@ PrefabInstance:
     - target: {fileID: 1560628103360589176, guid: cdd6a97f535f0284cad45586b5a8011d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1560628103360589176, guid: cdd6a97f535f0284cad45586b5a8011d,
         type: 3}
@@ -11542,7 +11560,7 @@ PrefabInstance:
     - target: {fileID: 1560628103360589177, guid: cdd6a97f535f0284cad45586b5a8011d,
         type: 3}
       propertyPath: m_Name
-      value: Respawn
+      value: RespawnPos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdd6a97f535f0284cad45586b5a8011d, type: 3}

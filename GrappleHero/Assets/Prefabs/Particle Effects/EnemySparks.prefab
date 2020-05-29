@@ -88,7 +88,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.86e-43, y: 3.939291, z: 4.86e-43, w: 559}
+  m_BoundingSphereOverride: {x: 4.86e-43, y: 6.9022146e+28, z: 4.85e-43, w: 559}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 3341422568832810512}
   - component: {fileID: 6658234660962996320}
   m_Layer: 0
-  m_Name: Sparks
+  m_Name: EnemySparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,7 +133,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3841229950713837355}
   serializedVersion: 6
-  lengthInSec: 0.12
+  lengthInSec: 0.2
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -315,7 +315,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.72851, b: 0, a: 1}
+      maxColor: {r: 0.089953184, g: 1, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
