@@ -97,6 +97,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 0}
   Explode: {fileID: 6829213836761035622, guid: 0a617ca44b7d28f4c92ee2c0ada300bf, type: 3}
+  EnemyDeathEffect: {fileID: 6829213836761035622, guid: 10109c386ef81c949bfc38383b3096fe,
+    type: 3}
 --- !u!60 &1009532936202153041
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Security.Cryptography;
 
 public class Hazard : MonoBehaviour
 {
@@ -7,12 +8,15 @@ public class Hazard : MonoBehaviour
     private PlayerMovement player;
     public Transform start;
     public GameObject Explode;
+    public GameObject EnemyDeathEffect;
     private throwhook throwHook;
+   // private GameObject enemy;
 
     void Start()
     {
         player = FindObjectOfType<PlayerMovement>();
         throwHook = FindObjectOfType<throwhook>(); // find throwhook script
+      //  enemy = GameObject.FindGameObjectWithTag("Enemy");
     }
 
     void Update()
@@ -24,6 +28,10 @@ public class Hazard : MonoBehaviour
         if (other.tag == "Player")
         {
             StartCoroutine("respawndelay");
+        } else if (other.tag == "Enemy")
+        {
+            Instantiate(EnemyDeathEffect, other.gameObject.transform.position, other.gameObject.transform.rotation);
+            Destroy(other.gameObject);
         }
     }
     public IEnumerator respawndelay()

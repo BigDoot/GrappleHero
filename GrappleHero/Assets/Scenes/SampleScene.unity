@@ -2227,6 +2227,7 @@ MonoBehaviour:
   grappleMask:
     serializedVersion: 2
     m_Bits: 2049
+  boostForce: 1000
 --- !u!114 &784246251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11579,12 +11580,12 @@ PrefabInstance:
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -38.93
+      value: -38.88
       objectReference: {fileID: 0}
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.39
+      value: -5.38
       objectReference: {fileID: 0}
     - target: {fileID: 3535523684505033839, guid: 5f1e197ad8614264b84c7dc9d90284d7,
         type: 3}

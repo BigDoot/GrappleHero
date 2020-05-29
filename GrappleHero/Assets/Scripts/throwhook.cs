@@ -15,6 +15,8 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
     public LayerMask grappleMask;
 
+    public float boostForce = 1000f;
+
     // Use this for initialization
     void Start()
     {
@@ -46,13 +48,19 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
         if (Input.GetMouseButtonDown(1))
         {
+            if (ropeActive && gameObject.GetComponent<CharacterController2D>().m_Grounded == false)
+            {
+                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, boostForce)); // boost player upwards when rope is withdrawn
+
+            }
+
             //delete rope
 
             Destroy(curHook);
 
             ropeActive = false;
         }
-
+       
 
     }
 }
