@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public float horizontalMove = 0f;
     public float runSpeed = 40f;
+    public float airSpeed = 60f;
+    public float groundSpeed = 40f;
     public bool jump = false;
     public bool crouch = false;
     public Animator animator;
@@ -43,10 +45,18 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+        runSpeed = groundSpeed;
     }
     void FixedUpdate()
     {
+        if (jump)
+        {
+            runSpeed = airSpeed;
+        } 
+
+
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+        
     }
 }

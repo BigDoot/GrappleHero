@@ -21,7 +21,12 @@ public class Crystals : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" || other.tag == "Grappling Hook")
+        if (other.tag == "Player")
+        {
+            Destroy(gameObject);
+            player.crystals++;
+        }
+         else if (other.tag == "Grappling Hook")
         {
             Destroy(gameObject);
             player.crystals++;
