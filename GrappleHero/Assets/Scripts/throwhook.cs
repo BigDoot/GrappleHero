@@ -61,6 +61,15 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
             ropeActive = false;
         }
        
+        if (Input.GetButtonDown("Jump")) // alternative method to unhook which does not have boost
+        {
+            if (ropeActive)
+            {
+                Destroy(curHook);
+
+                ropeActive = false;
+            }
+        }
 
     }
 }
