@@ -10,6 +10,7 @@ TagManager:
   - Hazards
   - Grappling Hook
   - Enemy
+  - Can Interact
   layers:
   - Default
   - TransparentFX

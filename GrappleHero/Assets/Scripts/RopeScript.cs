@@ -33,6 +33,8 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 
 	public int damage = 1;
 
+	public float hookPullPushForce = 1000f;
+
 	// Use this for initialization
 	void Start() {
 
@@ -118,8 +120,32 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 			Destroy(player.GetComponent<throwhook>().curHook);
 			player.GetComponent<throwhook>().ropeActive = false;
 
+			Vector2 directionOfObj = (Vector2)transform.position - (Vector2)hitInfo.GetComponent<Transform>().position;
+			hitInfo.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * -5000);
+
 		}
 		Instantiate(sparksEffect, transform.position, transform.rotation);
-    }
+
+
+		if (hitInfo.gameObject.tag == "Can Interact" && hitInfo.gameObject.GetComponent<Rigidbody2D>().mass < 10)
+		{
+			Destroy(player.GetComponent<throwhook>().curHook);
+			player.GetComponent<throwhook>().ropeActive = false;
+
+			GameObject hookedItem = hitInfo.gameObject;
+			Vector2 directionOfObj = (Vector2)transform.position - (Vector2)hookedItem.transform.position;
+
+			if (player.GetComponent<PlayerMovement>().crouch) // crouch to pull object to player
+            {
+				hookedItem.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * hookPullPushForce);
+			} else // else push object away from player
+            {
+				hookedItem.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * -hookPullPushForce);
+			}
+
+
+		}
+
+	}
 }
 

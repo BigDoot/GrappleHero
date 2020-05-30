@@ -42,6 +42,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
                     curHook.GetComponent<RopeScript>().destiny = hit.point;
 
                     ropeActive = true;
+
                 }
             }
         }
@@ -52,7 +53,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
             {
                 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, boostForce)); // boost player upwards when rope is withdrawn
                 gameObject.GetComponentInChildren<TrailRenderer>().enabled = false; // disable green trial
-                gameObject.transform.Find("Boost Trial").gameObject.SetActive(true);  // enable boost trial
+                gameObject.transform.Find("Boost Trail").gameObject.SetActive(true);  // enable boost trial
 
                 Invoke("revertTrail", 0.7f); // change trail renderer back to original
 
@@ -63,6 +64,9 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
             Destroy(curHook);
 
             ropeActive = false;
+
+
+
         }
        
         if (Input.GetButtonDown("Jump")) // alternative method to unhook which does not have boost
@@ -80,6 +84,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
     void revertTrail()
     {
         gameObject.GetComponentInChildren<TrailRenderer>().enabled = true;
-        gameObject.transform.Find("Boost Trial").gameObject.SetActive(false);
+        gameObject.transform.Find("Boost Trail").gameObject.SetActive(false);
     }
+
 }
