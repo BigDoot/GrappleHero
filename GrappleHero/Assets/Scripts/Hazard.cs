@@ -44,9 +44,11 @@ public class Hazard : MonoBehaviour
         player.enabled = false;
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.GetComponent<Renderer>().enabled = false;
+        player.GetComponent<TrailRenderer>().enabled = false; // disable trail renderer
         yield return new WaitForSeconds(1);
         player.transform.position = start.position;
         player.GetComponent<Renderer>().enabled = true;
+        player.GetComponent<TrailRenderer>().enabled = true;
         player.enabled = true;
 
     }

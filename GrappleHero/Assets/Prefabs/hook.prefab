@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destiny: {x: 0, y: 0}
-  speed: 0.5
+  speed: 1
   distance: 0.3
   nodePrefab: {fileID: 4372232816995804806, guid: b69fb0b9d81965b49bb03cbe44bc383c,
     type: 3}

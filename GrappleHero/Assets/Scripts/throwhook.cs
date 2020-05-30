@@ -51,6 +51,10 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
             if (ropeActive && gameObject.GetComponent<CharacterController2D>().m_Grounded == false)
             {
                 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, boostForce)); // boost player upwards when rope is withdrawn
+                gameObject.GetComponentInChildren<TrailRenderer>().enabled = false; // disable green trial
+                gameObject.transform.Find("Boost Trial").gameObject.SetActive(true);  // enable boost trial
+
+                Invoke("revertTrail", 0.7f); // change trail renderer back to original
 
             }
 
@@ -71,5 +75,11 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
             }
         }
 
+    }
+
+    void revertTrail()
+    {
+        gameObject.GetComponentInChildren<TrailRenderer>().enabled = true;
+        gameObject.transform.Find("Boost Trial").gameObject.SetActive(false);
     }
 }
