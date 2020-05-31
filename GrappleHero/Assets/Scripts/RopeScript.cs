@@ -121,7 +121,7 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 			player.GetComponent<throwhook>().ropeActive = false;
 
 			Vector2 directionOfObj = (Vector2)transform.position - (Vector2)hitInfo.GetComponent<Transform>().position;
-			hitInfo.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * -5000);
+			hitInfo.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * -enemy.knockbackFromWep);
 
 		}
 		Instantiate(sparksEffect, transform.position, transform.rotation);

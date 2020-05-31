@@ -157,6 +157,7 @@ MonoBehaviour:
   health: 3
   deathEffect: {fileID: 6829213836761035622, guid: 10109c386ef81c949bfc38383b3096fe,
     type: 3}
+  knockbackFromWep: 3500
 --- !u!1 &3535523685194605417
 GameObject:
   m_ObjectHideFlags: 0

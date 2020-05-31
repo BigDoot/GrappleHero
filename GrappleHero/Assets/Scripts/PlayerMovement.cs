@@ -49,11 +49,11 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (jump)
+
+        if (!controller.m_Grounded)
         {
             runSpeed = airSpeed;
-        } 
-
+        }
 
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
