@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class throwhook : MonoBehaviour // can think of this script as the "weapon"
 {
@@ -16,6 +17,8 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
     public LayerMask grappleMask;
 
     public float boostForce = 1000f;
+
+    public float offset;
 
     // Use this for initialization
     void Start()
@@ -38,7 +41,10 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
                 if (hit.collider != null)
                 {
-                    curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);            
+                    //curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);
+                    Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+                    float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+                    curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.Euler(0f, 0f, rotZ + offset));            
                     curHook.GetComponent<RopeScript>().destiny = hit.point;
 
                     ropeActive = true;
@@ -51,6 +57,8 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
         {
             if (ropeActive && gameObject.GetComponent<CharacterController2D>().m_Grounded == false)
             {
+               // gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity * 400); // use this for super boost
+
                 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, boostForce)); // boost player upwards when rope is withdrawn
                 gameObject.GetComponentInChildren<TrailRenderer>().enabled = false; // disable green trial
                 gameObject.transform.Find("Boost Trail").gameObject.SetActive(true);  // enable boost trial

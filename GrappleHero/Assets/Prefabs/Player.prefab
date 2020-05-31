@@ -454,6 +454,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2049
   boostForce: 1000
+  offset: -90
 --- !u!114 &5077483069767608980
 MonoBehaviour:
   m_ObjectHideFlags: 0
