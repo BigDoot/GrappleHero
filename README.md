@@ -42,7 +42,7 @@ Our target demographic would be the generation Z young adults, especially NUS st
 
 ## Game Description and Story
 
-![hi](https://imgur.com/gallery/zGSpJD1)
+![hi](https://i.imgur.com/X4H9J8M.png)
 
 **Game name:** Grapple Hero 
 
