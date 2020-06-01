@@ -67,7 +67,7 @@ Our target demographic would be the **generation Z young adults**, especially NU
 * Some items on the level can be interacted with!
   * Hit item away - Shoot grapple hook normally at item
   * Pull items to player - Crouch while shooting grapple hook at item
-* Boost Jump Tech - Jump then aim **Left Mouse** to the ground and press both **Left and Right Mouse** buttons in quick succession
+* **Boost Jump Tech** - Jump then aim **Left Mouse** to the ground and press both **Left and Right Mouse** buttons in quick succession
 
 ![IM3](https://media.giphy.com/media/elmIceiKRsmPQpSjfH/giphy.gif)
 
