@@ -69,6 +69,8 @@ Our target demographic would be the generation Z young adults, especially NUS st
 * Pull items to player - Crouch while shooting grapple hook at item
 * Boost Jump Tech - Jump then aim Left Mouse to the ground and press both Left and Right Mouse buttons in quick succession
 
+![IM3](https://media.giphy.com/media/elmIceiKRsmPQpSjfH/giphy.gif)
+
 ## Key Features
 
 **Basic Features(by next milestone):**
@@ -90,6 +92,8 @@ Main menu, level select, end-credits, pause menu, game-over screen, and level tr
 Collectibles system
 
 Collect crystals for a highscore on the scoreboard
+
+![IM4](https://media.giphy.com/media/S8fiAs4kOGBtDf5gFr/giphy.gif)
 
 
 **Advanced Features/Future Plans:**
