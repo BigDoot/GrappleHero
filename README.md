@@ -1,6 +1,6 @@
 # Orbital 2020
 
-!(FirstImage)[https://i.imgur.com/e9U2IXj.png]
+![FirstImage](https://i.imgur.com/e9U2IXj.png)
 
 ## Team Members:
 
@@ -56,7 +56,7 @@ Our target demographic would be the generation Z young adults, especially NUS st
 
 ### Movement Controls and Game Mechanics
 
-!(IM2)[https://i.imgur.com/POhtUmW.mp4]
+![IM2](https://i.imgur.com/POhtUmW.mp4)
 
 * WASD or arrow keys to move
 * Spacebar to jump, S or down arrow to crouch
