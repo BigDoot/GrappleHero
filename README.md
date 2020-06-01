@@ -61,12 +61,12 @@ Our target demographic would be the generation Z young adults, especially NUS st
 * WASD or arrow keys to move
 * Spacebar to jump, S or down arrow to crouch
 * Grapple hook - Left Mouse button to shoot
-* Release grapple hook - Spacebar
-* Release grapple hook and boost upwards - Right Mouse button
-* Control swing with A/D or left/right arrow keys
+  * Release grapple hook - Spacebar
+  * Release grapple hook and boost upwards - Right Mouse button
+  * Control swing with A/D or left/right arrow keys
 * Some items on the level can be interacted with!
-* Hit item away - Shoot grapple hook normally at item
-* Pull items to player - Crouch while shooting grapple hook at item
+  * Hit item away - Shoot grapple hook normally at item
+  * Pull items to player - Crouch while shooting grapple hook at item
 * Boost Jump Tech - Jump then aim Left Mouse to the ground and press both Left and Right Mouse buttons in quick succession
 
 ![IM3](https://media.giphy.com/media/elmIceiKRsmPQpSjfH/giphy.gif)
