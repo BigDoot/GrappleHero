@@ -1,5 +1,7 @@
 # Orbital 2020
 
+!(FirstImage)[https://i.imgur.com/e9U2IXj.png]
+
 ## Team Members:
 
 Glendon Chua
@@ -53,6 +55,8 @@ Our target demographic would be the generation Z young adults, especially NUS st
 **Story:** A treasure hunter named Hartin Menz arrives on the island of Lamatai, looking for valued treasure in ancient ruins. The treasure supposedly gives one the ability to possess superhuman strength. Hartin really wants it to find a girlfriend. However, the challenges that await him will scare even the bravest of men. Will he be able to obtain it?
 
 ### Movement Controls and Game Mechanics
+
+!(IM2)[https://i.imgur.com/POhtUmW.mp4]
 
 * WASD or arrow keys to move
 * Spacebar to jump, S or down arrow to crouch
