@@ -112,7 +112,7 @@ Our target demographic would be the **generation Z young adults**, especially NU
 
   * Good soundtrack and music pleasing to the ears
 
-* **Touch up and polish all the levels**, menus and transitions mentioned above with sounds and game effects
+* **Touch up and polish all the levels, menus and transitions** mentioned above with sounds and game effects
 
   * Use of Unity’s particle system, screen shakes etc to make gameplay more satisfying
 
