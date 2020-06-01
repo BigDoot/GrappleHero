@@ -1,11 +1,10 @@
-# OrbitalProject
-Orbital 2020
+# Orbital 2020
 
 ## Team Members:
 
-Lee Yan Cheng
-
 Glendon Chua
+
+Lee Yan Cheng
 
 ## Team Name:
 
@@ -42,6 +41,8 @@ Our target demographic would be the generation Z young adults, especially NUS st
 
 
 ## Game Description and Story
+
+![hi](https://imgur.com/gallery/zGSpJD1)
 
 **Game name:** Grapple Hero 
 
