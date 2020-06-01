@@ -14,7 +14,7 @@ Grapple Hero
 
 ## Proposed Level of Achievement: 
 
-Project Gemini
+Project Gemini/Apollo 11
 
 ## Motivation
 
@@ -75,52 +75,52 @@ Our target demographic would be the generation Z young adults, especially NUS st
 
 **Basic Features(by next milestone):**
 
-Tutorial level and first few levels playable
+* Tutorial level and first few levels playable
 
-Basic level design with adventuring and exploration themes in mind. Basic storyline.
+  * Basic level design with adventuring and exploration themes in mind. Basic storyline.
 
-Basic level hazards. enemy design and AI
+  * Basic level hazards. enemy design and AI
 
-Basic boss battles
+  * Basic boss battles
 
-Fleshed out grappling hook mechanics- Utilize Unity’s physics engine to create satisfying player movement with grappling hook. Hook can be used to swing around the level, attack enemies, grab items and collectibles
+  * Fleshed out grappling hook mechanics- Utilize Unity’s physics engine to create satisfying player movement with grappling hook. Hook can be used to swing around the level, attack enemies, grab items and collectibles
 
-Basic game soundtrack that captures the mysterious atmosphere of a deserted legendary island
+  * Basic game soundtrack that captures the mysterious atmosphere of a deserted legendary island
 
-Main menu, level select, end-credits, pause menu, game-over screen, and level transitions implemented
+* Main menu, level select, end-credits, pause menu, game-over screen, and level transitions implemented
 
-Collectibles system
+* Collectibles system
 
-Collect crystals for a highscore on the scoreboard
+  * Collect crystals for a highscore on the scoreboard
 
 ![IM4](https://media.giphy.com/media/S8fiAs4kOGBtDf5gFr/giphy.gif)
 
 
 **Advanced Features/Future Plans:**
 
-Tutorial level and all 4 levels fully playable
+* Tutorial level and all 4 levels fully playable
 
-Improved storyline and utilize game mechanics to do better storytelling
+  * Improved storyline and utilize game mechanics to do better storytelling
 
-Fully fleshed out levels with hidden secrets for players to find
+  * Fully fleshed out levels with hidden secrets for players to find
 
-Multiple level hazards, unique enemies and AI
+  * Multiple level hazards, unique enemies and AI
 
-Implement well thought out boss battles
+  * Implement well thought out boss battles
 
-Grappling hook upgrades
+  * Grappling hook upgrades
 
-Good soundtrack and music pleasing to the ears
+  * Good soundtrack and music pleasing to the ears
 
-Touch up and polish all the levels, menus and transitions mentioned above with sounds and game effects
+* Touch up and polish all the levels, menus and transitions mentioned above with sounds and game effects
 
-Use of Unity’s particle system, screen shakes etc to make gameplay more satisfying
+  * Use of Unity’s particle system, screen shakes etc to make gameplay more satisfying
 
-More in depth collectibles system
+* More in depth collectibles system
 
-Different kinds of crystals, rare treasures
+  * Different kinds of crystals, rare treasures
 
-Possible port to android
+* Possible port to android
 
 ## Tech Stack
 
