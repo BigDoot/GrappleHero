@@ -174,7 +174,7 @@ MonoBehaviour:
   hitEnemySparksEffect: {fileID: 3841229950713837355, guid: df41ae3012f362a44ba35394ceef3300,
     type: 3}
   damage: 1
-  hookPullPushForce: 1000
+  hookPullPushForce: 1500
 --- !u!120 &-8870856996673385743
 LineRenderer:
   m_ObjectHideFlags: 0
