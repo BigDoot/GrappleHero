@@ -138,10 +138,12 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 
 			if (player.GetComponent<PlayerMovement>().crouch) // crouch to pull object to player
             {
+				//hookedItem.GetComponent<Transform>().position = Vector2.MoveTowards((Vector2)hookedItem.transform.position, (Vector2)transform.position, 10);
 				hookedItem.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * hookPullForce);
 			} else // else push object away from player
             {
 				hookedItem.GetComponent<Rigidbody2D>().AddForce(directionOfObj.normalized * -hookPushForce);
+				//hookedItem.GetComponent<Transform>().position = Vector2.MoveTowards((Vector2)hookedItem.transform.position, (Vector2)transform.position, 10);
 			}
 
 
