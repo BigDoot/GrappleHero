@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public bool crouch = false;
     public Animator animator;
     public int crystals;
+    public int keys;
 
     // Start is called before the first frame update
     void Start()

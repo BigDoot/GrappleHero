@@ -16,6 +16,6 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        text.text = "Crystals: " + player.crystals;
+        text.text = "Crystals: " + player.crystals + "\nKeys: " + player.keys;
     }
 }

@@ -7,6 +7,8 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
 
+    public GameObject UIElements;
+
     public float transitionTime = 1f;
 
     // Update is called once per frame
@@ -17,11 +19,14 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        UIElements.SetActive(false);// disable UI elements while transitioning between scenes
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
     IEnumerator LoadLevel(int levelIndex)
     {
+
+
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);

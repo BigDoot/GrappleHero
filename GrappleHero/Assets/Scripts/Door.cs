@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    private PlayerMovement player;
 
     public LevelLoader lvlloader;
 
@@ -11,6 +12,8 @@ public class Door : MonoBehaviour
     void Start()
     {
         lvlloader = FindObjectOfType<LevelLoader>();
+        player = FindObjectOfType<PlayerMovement>();
+
     }
 
     // Update is called once per frame
@@ -21,6 +24,11 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        lvlloader.LoadNextLevel();
+        if (player.keys > 0)
+        {
+            player.keys--;
+            lvlloader.LoadNextLevel();
+        }
+
     }
 }
