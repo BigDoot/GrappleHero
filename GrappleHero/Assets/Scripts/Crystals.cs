@@ -23,11 +23,13 @@ public class Crystals : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Collect");
             Destroy(gameObject);
             player.crystals++;
         }
          else if (other.tag == "Grappling Hook")
         {
+            FindObjectOfType<AudioManager>().Play("Collect");
             Destroy(gameObject);
             player.crystals++;
             Destroy(throwHook.curHook);

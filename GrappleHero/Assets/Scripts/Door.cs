@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Door : MonoBehaviour
 {
@@ -24,11 +26,19 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (player.keys > 0)
+        if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            player.keys--;
+            if (player.keys > 0)
+            {
+                player.keys--;
+                lvlloader.LoadNextLevel();
+            }
+        }
+        else
+        {
             lvlloader.LoadNextLevel();
         }
+
 
     }
 }

@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public int crystals;
     public int keys;
+    public int goldCoins;
 
     // Start is called before the first frame update
     void Start()
