@@ -434,6 +434,8 @@ MonoBehaviour:
   crouch: 0
   animator: {fileID: 5077483069767608982}
   crystals: 0
+  keys: 0
+  goldCoins: 0
 --- !u!114 &5077483069767608981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,7 +457,8 @@ MonoBehaviour:
     m_Bits: 2049
   boostForce: 1000
   offset: -90
-  startTimeBtwShots: 0.25
+  audioManager: {fileID: 5449715887099084105, guid: 3f4f8c59ec074934ba7fae05557fb631,
+    type: 3}
 --- !u!114 &5077483069767608980
 MonoBehaviour:
   m_ObjectHideFlags: 0

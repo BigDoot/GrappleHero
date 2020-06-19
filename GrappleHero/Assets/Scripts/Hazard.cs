@@ -24,10 +24,11 @@ public class Hazard : MonoBehaviour
     {
 
     }
-    void OnTriggerEnter2D(Collider2D other)
+/*    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Death");
             StartCoroutine("respawndelay");
         }
         else if (other.tag == "Enemy")
@@ -35,7 +36,7 @@ public class Hazard : MonoBehaviour
             Instantiate(EnemyDeathEffect, other.gameObject.transform.position, other.gameObject.transform.rotation);
             Destroy(other.gameObject);
         }
-    }
+    }*/
     public IEnumerator respawndelay()
 
     {

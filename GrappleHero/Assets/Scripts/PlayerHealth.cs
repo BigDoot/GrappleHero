@@ -10,18 +10,20 @@ public class PlayerHealth : MonoBehaviour
 
     private PlayerMovement player;
     public Transform start;
+    public Transform respawnPt;
     public GameObject Explode;
     private throwhook throwHook;
 
     void Start()
     {
+        respawnPt = start;
         player = FindObjectOfType<PlayerMovement>();
         throwHook = FindObjectOfType<throwhook>(); // find throwhook script
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy") 
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Hazards") 
         {
             TakeDamage(1);
         }
@@ -34,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            FindObjectOfType<AudioManager>().Play("Death");
             StartCoroutine("respawndelay");
 
         }
@@ -53,7 +56,7 @@ public class PlayerHealth : MonoBehaviour
         player.GetComponent<BoxCollider2D>().enabled = false; // prevent further collisions
         player.GetComponent<CircleCollider2D>().enabled = false;
         yield return new WaitForSeconds(respawnTime);
-        player.transform.position = start.position;
+        player.transform.position = respawnPt.position;
         player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         player.GetComponent<throwhook>().enabled = true;
         player.GetComponent<Renderer>().enabled = true;
