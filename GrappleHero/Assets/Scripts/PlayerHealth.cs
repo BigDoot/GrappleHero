@@ -13,7 +13,6 @@ public class PlayerHealth : MonoBehaviour
     public Transform respawnPt;
     public GameObject Explode;
     private throwhook throwHook;
-    public AudioManager audioManager;
 
     void Start()
     {
@@ -37,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            audioManager.Play("Death");
+            FindObjectOfType<AudioManager>().Play("Death");
             StartCoroutine("respawndelay");
 
         }

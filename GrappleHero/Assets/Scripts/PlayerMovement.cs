@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public int crystals;
     public int keys;
     public int goldCoins;
-    public AudioManager audioManager;
+    //public AudioManager audioManager;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            audioManager.Play("Jump");
-            //FindObjectOfType<AudioManager>().Play("Jump");
+            //audioManager.Play("Jump");
+            FindObjectOfType<AudioManager>().Play("Jump");
             jump = true;
             animator.SetBool("IsJumping", true);
         }

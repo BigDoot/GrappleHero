@@ -6,7 +6,6 @@ public class GoldCoin : MonoBehaviour
 {
     private PlayerMovement player;
     private throwhook throwHook;
-    public AudioManager audioManager;
 
     void Start()
     {
@@ -22,8 +21,7 @@ public class GoldCoin : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            audioManager.Play("Collect");
-            //FindObjectOfType<AudioManager>().Play("Collect");
+            FindObjectOfType<AudioManager>().Play("Collect");
             Destroy(gameObject);
             player.goldCoins++;
         }
