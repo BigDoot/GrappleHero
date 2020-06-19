@@ -20,7 +20,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
     public float offset;
 
-    //public AudioManager audioManager; 
+    public AudioManager audioManager; 
 
     // Use this for initialization
     void Start()
@@ -43,8 +43,8 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
                 if (hit.collider != null)
                 {
-                    //audioManager.Play("HookHit");
-                    FindObjectOfType<AudioManager>().Play("HookHit");
+                    audioManager.Play("HookHit");
+                    //FindObjectOfType<AudioManager>().Play("HookHit");
                     //curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);
                     Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
                     float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;

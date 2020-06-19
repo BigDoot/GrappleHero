@@ -151,6 +151,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -230,6 +235,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -309,6 +319,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -378,6 +393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -856,6 +876,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1064,6 +1089,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1493,6 +1523,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1748,6 +1783,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1823,6 +1863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1983,6 +2028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2052,6 +2102,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2645,6 +2700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2902,6 +2962,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4458,6 +4523,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4572,6 +4642,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4647,6 +4722,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5060,6 +5140,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5422,6 +5507,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5491,6 +5581,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5728,6 +5823,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5979,6 +6079,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6135,6 +6240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8208,6 +8318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8277,6 +8392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8522,6 +8642,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8739,6 +8864,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8903,6 +9033,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9073,6 +9208,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9239,6 +9379,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9318,6 +9463,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9578,6 +9728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9823,6 +9978,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10320,7 +10480,7 @@ PrefabInstance:
         type: 3}
       propertyPath: UIElements
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1178644767}
     - target: {fileID: 7936706637261762456, guid: d48c07a63f1a583468b9ee29f3783e69,
         type: 3}
       propertyPath: m_Layer
@@ -10340,6 +10500,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10670,6 +10835,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12764,6 +12934,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13047,6 +13222,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13330,6 +13510,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13409,6 +13594,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13563,6 +13753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13632,6 +13827,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13905,6 +14105,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14635,6 +14840,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14710,6 +14920,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14864,6 +15079,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15018,6 +15238,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15493,6 +15718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15568,6 +15798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16398,6 +16633,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17503,6 +17743,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60769,6 +61014,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61146,6 +61396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61304,6 +61559,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61644,6 +61904,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61881,6 +62146,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62041,6 +62311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62109,6 +62384,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1009532936202153046, guid: 3f48cfb96fabc874eb4ea078e8ad7368,
     type: 3}
   m_PrefabInstance: {fileID: 1377949205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1178644767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6817947925127080548, guid: 11c284a36534c29408f0d6819693672c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1915586733}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1180701380
 PrefabInstance:
@@ -62191,6 +62472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62366,6 +62652,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62435,6 +62726,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62510,6 +62806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62747,6 +63048,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63010,6 +63316,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63339,7 +63650,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291664412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -88.15, y: -15.959999, z: -10}
+  m_LocalPosition: {x: 157, y: 34.86, z: -10}
   m_LocalScale: {x: 1.0059357, y: 1, z: 1}
   m_Children:
   - {fileID: 1768716200}
@@ -64059,6 +64370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64561,6 +64877,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64709,6 +65030,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65491,6 +65817,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65763,6 +66094,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6970900734104749165, guid: 238bc289a1468514fadc8540337395dc,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 238bc289a1468514fadc8540337395dc, type: 3}
 --- !u!4 &1457019328 stripped
@@ -65783,6 +66119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66299,6 +66640,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66559,6 +66905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66644,6 +66995,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66713,6 +67069,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67076,6 +67437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67151,6 +67517,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67992,6 +68363,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -68353,6 +68729,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6970900734104749165, guid: 238bc289a1468514fadc8540337395dc,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 238bc289a1468514fadc8540337395dc, type: 3}
 --- !u!4 &1593039029 stripped
@@ -69959,6 +70340,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -70557,6 +70943,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -70636,6 +71027,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71328,6 +71724,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71492,6 +71893,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71741,6 +72147,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71980,6 +72391,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72116,6 +72532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72828,6 +73249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73018,6 +73444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73347,6 +73778,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73780,6 +74216,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6817947925690853809, guid: 11c284a36534c29408f0d6819693672c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11c284a36534c29408f0d6819693672c, type: 3}
 --- !u!4 &1917827331 stripped
@@ -73788,6 +74229,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 954026437}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919721924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5449715887099084105, guid: 3f4f8c59ec074934ba7fae05557fb631,
+    type: 3}
+  m_PrefabInstance: {fileID: 446466869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef5d59e11d7ac94b89cde365c034b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1924875422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74134,6 +74587,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74304,6 +74762,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74373,6 +74836,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74458,6 +74926,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74537,6 +75010,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74873,6 +75351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75021,6 +75504,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75090,6 +75578,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75352,6 +75845,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75421,6 +75919,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75659,6 +76162,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75728,6 +76236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -75961,6 +76474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76269,6 +76787,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 751547925}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2076268144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076268147}
+  - component: {fileID: 2076268146}
+  - component: {fileID: 2076268145}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2076268145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076268144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &2076268146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076268144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &2076268147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076268144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2084553206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76281,6 +76865,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77432,6 +78021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77507,6 +78101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77582,6 +78181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77904,6 +78508,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 524876580110296915, guid: cfc3ded933656b14080af688d391ff74,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 524876580110296916, guid: cfc3ded933656b14080af688d391ff74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -78775,11 +79384,21 @@ PrefabInstance:
       propertyPath: start
       value: 
       objectReference: {fileID: 1017877707}
+    - target: {fileID: 5077483069767608980, guid: 696de513b1d6991468ddae1ef8971685,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 5077483069767608981, guid: 696de513b1d6991468ddae1ef8971685,
         type: 3}
       propertyPath: startTimeBtwShots
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 5077483069767608981, guid: 696de513b1d6991468ddae1ef8971685,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 5077483069767608983, guid: 696de513b1d6991468ddae1ef8971685,
         type: 3}
       propertyPath: m_Offset.y
@@ -78790,15 +79409,20 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.5062968
       objectReference: {fileID: 0}
+    - target: {fileID: 5077483069767608984, guid: 696de513b1d6991468ddae1ef8971685,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     - target: {fileID: 5077483069767608985, guid: 696de513b1d6991468ddae1ef8971685,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -88.15
+      value: 157
       objectReference: {fileID: 0}
     - target: {fileID: 5077483069767608985, guid: 696de513b1d6991468ddae1ef8971685,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.82
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5077483069767608985, guid: 696de513b1d6991468ddae1ef8971685,
         type: 3}
@@ -80352,5 +80976,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6970900734104749165, guid: 238bc289a1468514fadc8540337395dc,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1919721924}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 238bc289a1468514fadc8540337395dc, type: 3}
