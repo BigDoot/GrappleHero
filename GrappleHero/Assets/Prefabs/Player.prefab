@@ -279,7 +279,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 9b7419d82b5855444b6b4db153a662d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -457,8 +457,6 @@ MonoBehaviour:
     m_Bits: 2049
   boostForce: 1000
   offset: -90
-  audioManager: {fileID: 5449715887099084105, guid: 3f4f8c59ec074934ba7fae05557fb631,
-    type: 3}
 --- !u!114 &5077483069767608980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +473,7 @@ MonoBehaviour:
   health: 1
   respawnTime: 2
   start: {fileID: 2659643427930755434, guid: 68b135c264d75ec4480363083f83ff2e, type: 3}
+  respawnPt: {fileID: 0}
   Explode: {fileID: 6829213836761035622, guid: 0a617ca44b7d28f4c92ee2c0ada300bf, type: 3}
 --- !u!96 &5077483069767608979
 TrailRenderer:

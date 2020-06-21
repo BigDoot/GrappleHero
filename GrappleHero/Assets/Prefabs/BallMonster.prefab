@@ -155,9 +155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  deathEffect: {fileID: 6829213836761035622, guid: 10109c386ef81c949bfc38383b3096fe,
+  deathEffect: {fileID: 9151250212862279218, guid: 8b1ef82843640474e83a33e3cbcf686d,
+    type: 3}
+  bloodstain: {fileID: 9086679628014888300, guid: 0bfc344a516815a498983f5f5be091cf,
     type: 3}
   knockbackFromWep: 3500
+  bloodlifetime: 8
 --- !u!1 &3535523685194605417
 GameObject:
   m_ObjectHideFlags: 0
