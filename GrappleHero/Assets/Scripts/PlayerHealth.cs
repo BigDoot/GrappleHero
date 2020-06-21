@@ -36,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            FindObjectOfType<AudioManager>().Play("Death");
+            AudioManager.instance.Play("Death");
             StartCoroutine("respawndelay");
 
         }

@@ -8,7 +8,6 @@ public class Crystals : MonoBehaviour
 
     private PlayerMovement player;
     private throwhook throwHook;
-    //public static AudioManager audioManager;
 
     void Start()
     {
@@ -24,15 +23,13 @@ public class Crystals : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            //audioManager.Play("Collect");
-            FindObjectOfType<AudioManager>().Play("Collect");
+            AudioManager.instance.Play("Collect");
             Destroy(gameObject);
             player.crystals++;
         }
          else if (other.tag == "Grappling Hook")
         {
-            //audioManager.Play("Collect");
-            FindObjectOfType<AudioManager>().Play("Collect");
+            AudioManager.instance.Play("Collect");
             Destroy(gameObject);
             player.crystals++;
             Destroy(throwHook.curHook);

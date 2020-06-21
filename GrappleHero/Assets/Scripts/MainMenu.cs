@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        FindObjectOfType<AudioManager>().Play("Select");
+        AudioManager.instance.Play("Select");
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
@@ -30,7 +30,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        FindObjectOfType<AudioManager>().Play("Select");
+        AudioManager.instance.Play("Select");
         Debug.Log("QUIT");
         Application.Quit();
     }

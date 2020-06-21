@@ -26,7 +26,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        FindObjectOfType<AudioManager>().Play("Select");
+        AudioManager.instance.Play("Select");
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; // set game speed to normal
         GameIsPaused = false;
@@ -34,7 +34,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause()
     {
-        FindObjectOfType<AudioManager>().Play("Select");
+        AudioManager.instance.Play("Select");
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f; // set game speed to 0
         GameIsPaused = true;
@@ -42,14 +42,14 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
-        FindObjectOfType<AudioManager>().Play("Select");
+        AudioManager.instance.Play("Select");
         Time.timeScale = 1f; // set game speed to normal
         SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
     {
-        FindObjectOfType<AudioManager>().Play("Select");
+        AudioManager.instance.Play("Select");
         Debug.Log("QUIT");
         Application.Quit();
     }

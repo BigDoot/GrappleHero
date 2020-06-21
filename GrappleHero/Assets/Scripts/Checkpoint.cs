@@ -7,6 +7,7 @@ public class Checkpoint : MonoBehaviour
     //private GameMaster gm;
     private PlayerHealth ph;
     public float offset = 1;
+    private bool activated = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +26,13 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("respawn pt set");
-            ph.respawnPt.position = transform.position + new Vector3(0, offset, 0);
+            if (!activated)
+            {
+                activated = true;
+                AudioManager.instance.Play("Checkpoint");
+                Debug.Log("respawn pt set");
+                ph.respawnPt.position = transform.position + new Vector3(0, offset, 0);
+            }
         }
     }
 }
