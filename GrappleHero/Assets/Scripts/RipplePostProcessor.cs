@@ -24,7 +24,6 @@ public class RipplePostProcessor : MonoBehaviour
         Vector3 pos = Input.mousePosition;
         this.RippleMaterial.SetFloat("_CenterX", pos.x);
         this.RippleMaterial.SetFloat("_CenterY", pos.y);
-        Debug.Log("hi");
     }
 
     void OnRenderImage(RenderTexture src, RenderTexture dst)

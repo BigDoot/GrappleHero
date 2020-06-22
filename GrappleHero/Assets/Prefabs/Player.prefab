@@ -370,9 +370,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04, y: -0.5}
+  m_Offset: {x: -0.04, y: -0.47140992}
   serializedVersion: 2
-  m_Radius: 0.5347182
+  m_Radius: 0.5062968
 --- !u!114 &5077483069767608989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   fullhealth: 1
   health: 1
   respawnTime: 2
-  start: {fileID: 2659643427930755434, guid: 68b135c264d75ec4480363083f83ff2e, type: 3}
+  start: {fileID: 0}
   respawnPt: {fileID: 0}
   Explode: {fileID: 6829213836761035622, guid: 0a617ca44b7d28f4c92ee2c0ada300bf, type: 3}
 --- !u!96 &5077483069767608979
