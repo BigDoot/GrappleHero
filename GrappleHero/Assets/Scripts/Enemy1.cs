@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class Enemy1 : MonoBehaviour
 {
@@ -10,12 +11,18 @@ public class Enemy1 : MonoBehaviour
     public float knockbackFromWep = 2500f;
     public float bloodlifetime = 10f;
 
+    public CinemachineVirtualCamera VirtualCamera;
+
+
     public virtual void TakeDamage(int damage)
     {
+        VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().smallshake();
         health -= damage;
+
         if (health <= 0)
         {
             Die();
+            
         }
     }
 
@@ -25,6 +32,7 @@ public class Enemy1 : MonoBehaviour
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
         Destroy(bs, bloodlifetime);
+        VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().shake();
     }
 
 
