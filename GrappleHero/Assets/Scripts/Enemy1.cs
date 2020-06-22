@@ -12,8 +12,12 @@ public class Enemy1 : MonoBehaviour
     public float bloodlifetime = 10f;
 
     public CinemachineVirtualCamera VirtualCamera;
+    protected RipplePostProcessor camRipple;
 
-
+    private void Start()
+    {
+        camRipple = Camera.main.GetComponent<RipplePostProcessor>();
+    }
     public virtual void TakeDamage(int damage)
     {
         VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().smallshake();
@@ -32,6 +36,7 @@ public class Enemy1 : MonoBehaviour
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
         Destroy(bs, bloodlifetime);
+        camRipple.RippleEffect();
         VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().shake();
     }
 

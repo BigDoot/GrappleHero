@@ -56,9 +56,10 @@ public class SimpleCameraShakeInCinemachine : MonoBehaviour
             {
                 if (smaller)
                 {
+                    float multiplier = Random.Range(0.75f, 1.75f);
                     // Set Cinemachine Camera Noise parameters
-                    virtualCameraNoise.m_AmplitudeGain = SmallerShakeAmplitude;
-                    virtualCameraNoise.m_FrequencyGain = SmallerShakeFrequency;
+                    virtualCameraNoise.m_AmplitudeGain = SmallerShakeAmplitude * multiplier;
+                    virtualCameraNoise.m_FrequencyGain = SmallerShakeFrequency * multiplier;
 
                     // Update Shake Timer
                     ShakeElapsedTime -= Time.deltaTime;

@@ -28,6 +28,7 @@ public class SkeletonEnemy : Enemy1
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject, 1f); // delay destroying of enemy to allow animation to play
+        camRipple.RippleEffect();
         VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().shake();
 
     }
