@@ -247,5 +247,9 @@ MonoBehaviour:
   health: 2
   deathEffect: {fileID: 9151250212862279218, guid: d907a985e4efbc240808b7f7f6a0fb3c,
     type: 3}
+  bloodstain: {fileID: 9151250212862279218, guid: 8b1ef82843640474e83a33e3cbcf686d,
+    type: 3}
   knockbackFromWep: 2500
+  bloodlifetime: 10
+  VirtualCamera: {fileID: 0}
   animator: {fileID: 4403554854553681668}
