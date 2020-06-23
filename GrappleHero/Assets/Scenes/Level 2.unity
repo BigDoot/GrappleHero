@@ -330,6 +330,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696de513b1d6991468ddae1ef8971685, type: 3}
+--- !u!114 &892027503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 970904280751591161, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
+    type: 3}
+  m_PrefabInstance: {fileID: 1375243642}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &933980082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6817947925127080548, guid: 11c284a36534c29408f0d6819693672c,
@@ -403,6 +415,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8296519000744152436, guid: f492e5b8d99cfcf4f875d8dea5bc99dd,
+        type: 3}
+      propertyPath: VirtualCamera
+      value: 
+      objectReference: {fileID: 892027503}
     - target: {fileID: 8296519000744152436, guid: f492e5b8d99cfcf4f875d8dea5bc99dd,
         type: 3}
       propertyPath: target
@@ -2258,6 +2275,11 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 249534150}
+    - target: {fileID: 970904280751591162, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
+        type: 3}
+      propertyPath: ShakeAmplitude
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 970904281211962700, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
         type: 3}
       propertyPath: m_Name
@@ -2322,6 +2344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970904281211962738, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
+        type: 3}
+      propertyPath: MaxAmount
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1726293187916873900, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
         type: 3}

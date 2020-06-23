@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class GhostAI : MonoBehaviour
+public class GhostAI : Enemy1
 {
     public Transform target;
     public float speed = 200f;
@@ -19,6 +19,7 @@ public class GhostAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        camRipple = Camera.main.GetComponent<RipplePostProcessor>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -39,6 +40,15 @@ public class GhostAI : MonoBehaviour
             path = p;
             currentWaypoint = 0;
         }
+    }
+
+    public override void Die()
+    {
+        //GameObject bs = Instantiate(bloodstain, transform.position, Quaternion.identity);
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+        //Destroy(bs, bloodlifetime);
+        camRipple.GhostRippleEffect();
     }
 
     // Update is called once per frame

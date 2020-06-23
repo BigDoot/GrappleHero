@@ -9,7 +9,7 @@ public class RipplePostProcessor : MonoBehaviour
 
     [Range(0, 1)]
     public float Friction = .9f;
-
+    public float ghostRipple = 100f;
     private float Amount = 0f;
 
     void Update()
@@ -21,6 +21,14 @@ public class RipplePostProcessor : MonoBehaviour
     public void RippleEffect()
     {
         this.Amount = this.MaxAmount;
+        Vector3 pos = Input.mousePosition;
+        this.RippleMaterial.SetFloat("_CenterX", pos.x);
+        this.RippleMaterial.SetFloat("_CenterY", pos.y);
+    }
+
+    public void GhostRippleEffect()
+    {
+        this.Amount = this.ghostRipple;
         Vector3 pos = Input.mousePosition;
         this.RippleMaterial.SetFloat("_CenterX", pos.x);
         this.RippleMaterial.SetFloat("_CenterY", pos.y);

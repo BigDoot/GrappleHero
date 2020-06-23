@@ -17,6 +17,12 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
+    public void Load(int levelIndex)
+    {
+        AudioManager.instance.Play("Select");
+        StartCoroutine(LoadLevel(levelIndex));
+    }
+
     public IEnumerator LoadLevel(int levelIndex)
     {
         UIElements.SetActive(false); // disable UI elements while transitioning between scenes

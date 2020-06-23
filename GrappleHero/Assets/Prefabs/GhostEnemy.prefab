@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8296519000744152436}
   - component: {fileID: 8296519000744152435}
   - component: {fileID: 8296519000744152434}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: GhostEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8296519000744152433}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -67.4, y: -11.7, z: 0}
   m_LocalScale: {x: 1.4510117, y: 1.4510117, z: 1.4510117}
   m_Children: []
@@ -134,6 +134,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a99ee87ed8ac4c34c89e39624d498d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 3
+  deathEffect: {fileID: 9151250212862279218, guid: 994d7e9bba868944ba92896670357461,
+    type: 3}
+  bloodstain: {fileID: 9086679628014888300, guid: 0bfc344a516815a498983f5f5be091cf,
+    type: 3}
+  knockbackFromWep: 500
+  bloodlifetime: 3
+  VirtualCamera: {fileID: 0}
   target: {fileID: 0}
   speed: 400
   nextWayPointDistance: 3
