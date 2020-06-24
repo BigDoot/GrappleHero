@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 8fcff80af13a53145b13277677365416, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -161,6 +161,7 @@ MonoBehaviour:
     type: 3}
   knockbackFromWep: 3500
   bloodlifetime: 8
+  VirtualCamera: {fileID: 0}
 --- !u!1 &3535523685194605417
 GameObject:
   m_ObjectHideFlags: 0
