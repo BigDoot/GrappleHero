@@ -56,7 +56,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
         if (Input.GetMouseButtonDown(1))
         {
-            if (ropeActive)
+            if (ropeActive && gameObject.GetComponent<CharacterController2D>().m_Grounded == false)
             {
                // gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity * 400); // use this for super boost
 

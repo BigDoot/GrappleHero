@@ -24,6 +24,7 @@ public class Key : MonoBehaviour
         {
             Destroy(gameObject);
             player.keys++;
+            Debug.Log("he");
         }
     }
 }
