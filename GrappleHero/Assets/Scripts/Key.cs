@@ -22,9 +22,9 @@ public class Key : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            AudioManager.instance.Play("Key");
             Destroy(gameObject);
             player.keys++;
-            Debug.Log("he");
         }
     }
 }

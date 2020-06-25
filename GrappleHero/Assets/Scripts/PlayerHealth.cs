@@ -14,6 +14,9 @@ public class PlayerHealth : MonoBehaviour
     public GameObject Explode;
     private throwhook throwHook;
 
+    public GameObject bloodstain;
+    public float bloodlifetime = 10f;
+
     void Start()
     {
         respawnPt = start;
@@ -37,6 +40,8 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
             AudioManager.instance.Play("Death");
+            GameObject bs = Instantiate(bloodstain, transform.position, Quaternion.identity);
+            Destroy(bs, bloodlifetime);
             StartCoroutine("respawndelay");
 
         }

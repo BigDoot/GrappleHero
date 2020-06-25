@@ -21,13 +21,13 @@ public class GoldCoin : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            AudioManager.instance.Play("Collect");
+            AudioManager.instance.Play("Coin");
             Destroy(gameObject);
             player.goldCoins++;
         }
         else if (other.tag == "Grappling Hook")
         {
-            AudioManager.instance.Play("Collect");
+            AudioManager.instance.Play("Coin");
             Destroy(gameObject);
             player.goldCoins++;
             Destroy(throwHook.curHook);

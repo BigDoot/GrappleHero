@@ -26,6 +26,8 @@ public class SkeletonEnemy : Enemy1
 
     public override void Die()
     {
+        AudioManager.instance.Play("SkeletonDeath");
+
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject, 1f); // delay destroying of enemy to allow animation to play
         camRipple.RippleEffect();

@@ -86,3 +86,27 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 9e18c82b78478b6488b096360e0a58c7, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: 8b8317f3ecf4c2f429cb6651e336b5ee, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Splatter
+    clip: {fileID: 8300000, guid: 4cdb74deaf83ab946a75335d30ee53ca, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonDeath
+    clip: {fileID: 8300000, guid: 21c0f515707b9d24c973bacf00c0c16f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

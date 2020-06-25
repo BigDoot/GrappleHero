@@ -32,6 +32,8 @@ public class Enemy1 : MonoBehaviour
 
     public virtual void Die()
     {
+        AudioManager.instance.Play("Splatter");
+
         GameObject bs = Instantiate(bloodstain, transform.position, Quaternion.identity);
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);

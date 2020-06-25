@@ -27,6 +27,7 @@ public class LockedDoor : MonoBehaviour
     {
         if (opened)
         {
+            //animator.SetBool("Opened", true);
             animator.Play("doorOpen");
         }
     }

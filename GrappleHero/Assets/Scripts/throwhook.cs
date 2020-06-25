@@ -20,10 +20,13 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
     public float offset;
 
+    private CharacterController2D cc;
+
     // Use this for initialization
     void Start()
     {
         //audioManager = FindObjectOfType<AudioManager>();
+        cc = gameObject.GetComponent<CharacterController2D>();
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
     {
         if (Input.GetMouseButtonDown(0))
         {
+            
             Vector2 destiny = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
             if (!ropeActive)
@@ -38,7 +42,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
                // RaycastHit2D hit = Physics2D.Raycast(destiny, Vector2.zero);
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, destiny - (Vector2)transform.position, ropeLength, grappleMask); // shoot raycast from player to destiny of length ropeLength
-                Debug.Log(hit.collider != null ? hit.collider.transform.tag: "nothing");
+                //Debug.Log(hit.collider != null ? hit.collider.transform.tag: "nothing");
                 if (hit.collider != null && hit.collider.transform.tag != "Ungrappable")
                 {
                     AudioManager.instance.Play("HookHit");
@@ -56,7 +60,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
         if (Input.GetMouseButtonDown(1))
         {
-            if (ropeActive && gameObject.GetComponent<CharacterController2D>().m_Grounded == false)
+            if (ropeActive && cc.m_Grounded == false)
             {
                // gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity * 400); // use this for super boost
 

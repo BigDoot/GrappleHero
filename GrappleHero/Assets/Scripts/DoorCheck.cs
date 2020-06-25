@@ -9,9 +9,12 @@ public class DoorCheck : MonoBehaviour
 
     private PlayerMovement player;
 
+    private AudioSource audiosource;
+
     // Start is called before the first frame update
     void Start()
     {
+        audiosource = GetComponent<AudioSource>();
         player = FindObjectOfType<PlayerMovement>();
     }
 
@@ -25,6 +28,7 @@ public class DoorCheck : MonoBehaviour
     {
             if (player.keys > 0)
             {
+                audiosource.Play();
                 player.keys--;
                 gameObject.GetComponentInParent<LockedDoor>().opened = true;
             }
