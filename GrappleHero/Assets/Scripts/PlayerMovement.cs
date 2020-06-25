@@ -31,7 +31,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            AudioManager.instance.Play("Jump");
             animator.SetBool("IsJumping", true);
             jump = true;
         }
