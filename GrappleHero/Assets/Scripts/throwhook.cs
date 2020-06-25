@@ -38,8 +38,8 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
                // RaycastHit2D hit = Physics2D.Raycast(destiny, Vector2.zero);
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, destiny - (Vector2)transform.position, ropeLength, grappleMask); // shoot raycast from player to destiny of length ropeLength
-
-                if (hit.collider != null)
+                Debug.Log(hit.collider != null ? hit.collider.transform.tag: "nothing");
+                if (hit.collider != null && hit.collider.transform.tag != "Ungrappable")
                 {
                     AudioManager.instance.Play("HookHit");
                     //curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);
@@ -56,7 +56,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
         if (Input.GetMouseButtonDown(1))
         {
-            if (ropeActive && gameObject.GetComponent<CharacterController2D>().m_Grounded == false)
+            if (ropeActive)
             {
                // gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity * 400); // use this for super boost
 
