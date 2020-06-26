@@ -474,7 +474,7 @@ MonoBehaviour:
   respawnTime: 2
   start: {fileID: 0}
   respawnPt: {fileID: 0}
-  Explode: {fileID: 6829213836761035622, guid: 0a617ca44b7d28f4c92ee2c0ada300bf, type: 3}
+  Explode: {fileID: 9151250212862279218, guid: 60d8c9ccb3219dd4ba65ff7a4a36ef50, type: 3}
   bloodstain: {fileID: 7568001365294400781, guid: 4919caa3c25fae840959ed6a54584b84,
     type: 3}
   bloodlifetime: 10
