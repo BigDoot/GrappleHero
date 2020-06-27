@@ -178,6 +178,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5077483069284862664, guid: 696de513b1d6991468ddae1ef8971685,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5077483069506411944, guid: 696de513b1d6991468ddae1ef8971685,
         type: 3}
       propertyPath: m_Parameters.colorGradient.key1.g
@@ -2133,7 +2138,7 @@ PrefabInstance:
     - target: {fileID: 5449715887099084104, guid: 3f4f8c59ec074934ba7fae05557fb631,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -37.22278
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5449715887099084104, guid: 3f4f8c59ec074934ba7fae05557fb631,
         type: 3}
@@ -2374,6 +2379,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 62d963ee934f91945842e1a45759ce5c,
         type: 3}
+    - target: {fileID: 1726293188839530994, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1726293188871340231, guid: fb5a9ca6cf53c1c4e9e667b08f2c1b91,
         type: 3}
       propertyPath: m_Sprite
@@ -2527,7 +2537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557351122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2555156, y: 1.8506444, z: -7.2441406}
+  m_LocalPosition: {x: 5.2555156, y: 1.8506444, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
