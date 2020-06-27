@@ -106,7 +106,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -609058732702250023, guid: b3c1fcb3a07547846a9a0d9655f8ef10,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -212,7 +212,7 @@ MonoBehaviour:
   faceDetection: {fileID: 8716294045928080550}
   layermask:
     serializedVersion: 2
-    m_Bits: 1335
+    m_Bits: 1079
 --- !u!1 &8716294045928080551
 GameObject:
   m_ObjectHideFlags: 0

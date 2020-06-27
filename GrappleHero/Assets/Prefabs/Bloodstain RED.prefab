@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3229005638135949688}
   - component: {fileID: 6097320130630138557}
   - component: {fileID: 92136554503874065}
-  m_Layer: 0
-  m_Name: Bloodstain 1
+  m_Layer: 8
+  m_Name: Bloodstain RED
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

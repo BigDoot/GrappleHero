@@ -110,3 +110,15 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: doorUnlock
+    clip: {fileID: 8300000, guid: 2910db01ae63e2e42905f5cd1a1cb658, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: locked
+    clip: {fileID: 8300000, guid: bbbd8ac9dfc436d4590f1a28d7af4257, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

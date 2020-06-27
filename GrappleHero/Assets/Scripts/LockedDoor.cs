@@ -14,9 +14,14 @@ public class LockedDoor : MonoBehaviour
 
     public bool opened = false;
 
+    private AudioSource audiosource;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        audiosource = GetComponent<AudioSource>();
+
         lvlloader = FindObjectOfType<LevelLoader>();
         player = FindObjectOfType<PlayerMovement>();
 
@@ -39,6 +44,16 @@ public class LockedDoor : MonoBehaviour
         {
             lvlloader.LoadNextLevel();
         }
+        else
+        {
+            if (collision.tag == "Player")
+            {
+                //AudioManager.instance.Play("locked");
+                audiosource.Play();
+            }
 
+
+
+        }
     }
 }

@@ -28,6 +28,8 @@ public class DoorCheck : MonoBehaviour
     {
             if (player.keys > 0)
             {
+                AudioManager.instance.Play("doorUnlock");
+
                 audiosource.Play();
                 player.keys--;
                 gameObject.GetComponentInParent<LockedDoor>().opened = true;
