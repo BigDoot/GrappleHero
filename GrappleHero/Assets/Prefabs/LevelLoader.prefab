@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transition: {fileID: 7936706635956864073}
+  UIElements: {fileID: 0}
   transitionTime: 1
 --- !u!1 &7936706637261762456
 GameObject:
