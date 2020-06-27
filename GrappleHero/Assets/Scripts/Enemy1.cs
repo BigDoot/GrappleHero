@@ -30,6 +30,14 @@ public class Enemy1 : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Hazards")
+        {
+            TakeDamage(10);
+        }
+    }
+
     public virtual void Die()
     {
         AudioManager.instance.Play("Splatter");
