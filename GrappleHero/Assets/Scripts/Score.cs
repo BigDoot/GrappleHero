@@ -1,21 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-
+using System;
 public class Score : MonoBehaviour
 {
-    Text text;
     private PlayerMovement player;
+    public string level;
+
+    public Text crystals;
+    public Text goldCoins;
+    public Text keys;
 
     // Use this for initialization
     void Start()
     {
-        text = GetComponent<Text>();
         player = FindObjectOfType<PlayerMovement>();
     }
 
     void Update()
     {
-        text.text = "Crystals: " + player.crystals + "\nKeys: " + player.keys + "\nGold Coins: " + player.goldCoins;
+        crystals.text = "Crystals: " + player.crystals;
+        goldCoins.text = "Gold Coins: " + player.goldCoins;
+        keys.text = "Keys: " + player.keys;
+        PlayerPrefs.SetInt(level, Math.Max(player.crystals, PlayerPrefs.GetInt(level, 0))); // take the higher score
     }
 }

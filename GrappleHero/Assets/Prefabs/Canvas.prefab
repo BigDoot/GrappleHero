@@ -1,5 +1,83 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3852633371479241819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615936352536567062}
+  - component: {fileID: 7360112996872882293}
+  - component: {fileID: 309492671434718659}
+  m_Layer: 5
+  m_Name: Gold Coins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &615936352536567062
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852633371479241819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6817947925127080568}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 170.72, y: -82.4}
+  m_SizeDelta: {x: 243.28824, y: 45.426315}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7360112996872882293
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852633371479241819}
+  m_CullTransparentMesh: 0
+--- !u!114 &309492671434718659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852633371479241819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.95224696, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b86687bc3a56eba498f51e1bac5592c1, type: 3}
+    m_FontSize: 34
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Gold Coins: 0'
 --- !u!1 &6817947924135301314
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,6 +617,7 @@ GameObject:
   - component: {fileID: 6817947925127080570}
   - component: {fileID: 6817947925127080571}
   - component: {fileID: 6817947925127080575}
+  - component: {fileID: 8211827086765589675}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: UI
@@ -558,6 +637,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 6817947925838231652}
+  - {fileID: 615936352536567062}
+  - {fileID: 7453372216457392972}
   - {fileID: 6817947925690853808}
   - {fileID: 6817947925342135946}
   m_Father: {fileID: 0}
@@ -641,6 +722,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 6817947925690853809}
+--- !u!114 &8211827086765589675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817947925127080548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aaa0919d89cc1468fbb3cf3664f4a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 
+  crystals: {fileID: 6817947925838231675}
+  goldCoins: {fileID: 309492671434718659}
+  keys: {fileID: 1346919425159796253}
 --- !u!1 &6817947925342135947
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,12 +770,12 @@ RectTransform:
   m_Children:
   - {fileID: 6817947924765249884}
   m_Father: {fileID: 6817947925127080568}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -71, y: -54}
-  m_SizeDelta: {x: 73.61081, y: 63.539307}
+  m_AnchoredPosition: {x: -43.4, y: -39.3}
+  m_SizeDelta: {x: 57.610817, y: 46.789307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6817947925342135951
 CanvasRenderer:
@@ -1029,7 +1126,7 @@ RectTransform:
   - {fileID: 6817947924135301313}
   - {fileID: 6817947925406592109}
   m_Father: {fileID: 6817947925127080568}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1103,9 +1200,8 @@ GameObject:
   - component: {fileID: 6817947925838231652}
   - component: {fileID: 6817947925838231674}
   - component: {fileID: 6817947925838231675}
-  - component: {fileID: 6817947925838231673}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Crystals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1127,8 +1223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.5, y: -107.21}
-  m_SizeDelta: {x: 266.85577, y: 160.15974}
+  m_AnchoredPosition: {x: 170.7, y: -48.4}
+  m_SizeDelta: {x: 243.32068, y: 42.48439}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6817947925838231674
 CanvasRenderer:
@@ -1151,7 +1247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.1637144, b: 0.13616946, a: 1}
+  m_Color: {r: 0.77750164, g: 1, b: 0.11792451, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1170,20 +1266,82 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Crystals: 0
-
-    Keys: 0
-
-    Gold Coins: 0'
---- !u!114 &6817947925838231673
+  m_Text: 'Crystals: 0'
+--- !u!1 &8516349114377718301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7453372216457392972}
+  - component: {fileID: 8917531545457143926}
+  - component: {fileID: 1346919425159796253}
+  m_Layer: 5
+  m_Name: Keys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7453372216457392972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516349114377718301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6817947925127080568}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 170.72, y: -112}
+  m_SizeDelta: {x: 243.28824, y: 45.426315}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8917531545457143926
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516349114377718301}
+  m_CullTransparentMesh: 0
+--- !u!114 &1346919425159796253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6817947925838231653}
+  m_GameObject: {fileID: 8516349114377718301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72aaa0919d89cc1468fbb3cf3664f4a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.79763323, b: 0.48584908, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b86687bc3a56eba498f51e1bac5592c1, type: 3}
+    m_FontSize: 34
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Keys: 0'
