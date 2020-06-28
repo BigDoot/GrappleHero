@@ -39,21 +39,19 @@ public class LockedDoor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (opened)
+        if (collision.tag == "Player")
         {
-            lvlloader.LoadNextLevel();
-        }
-        else
-        {
-            if (collision.tag == "Player")
+            if (opened)
             {
-                //AudioManager.instance.Play("locked");
+                lvlloader.LoadNextLevel();
+            }
+            else
+            {
                 audiosource.Play();
             }
-
-
-
         }
+
+
+       
     }
 }

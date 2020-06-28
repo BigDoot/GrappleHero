@@ -26,18 +26,26 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (SceneManager.GetActiveScene().buildIndex >= 2)
+        if (collision.tag == "Player")
         {
-            if (player.keys > 0)
-            {
-                player.keys--;
                 lvlloader.LoadNextLevel();
-            }
+
         }
-        else
-        {
-            lvlloader.LoadNextLevel();
-        }
+
+
+
+        /*        if (SceneManager.GetActiveScene().buildIndex >= 2)
+                {
+                    if (player.keys > 0)
+                    {
+                        player.keys--;
+                        lvlloader.LoadNextLevel();
+                    }
+                }
+                else
+                {*/
+       // lvlloader.LoadNextLevel();
+       // }
 
 
     }
