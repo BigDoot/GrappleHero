@@ -471,7 +471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullhealth: 1
   health: 1
-  respawnTime: 2
+  respawnTime: 1.5
   start: {fileID: 0}
   respawnPt: {fileID: 0}
   Explode: {fileID: 9151250212862279218, guid: 60d8c9ccb3219dd4ba65ff7a4a36ef50, type: 3}
