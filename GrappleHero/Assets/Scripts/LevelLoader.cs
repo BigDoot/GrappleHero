@@ -23,6 +23,12 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
+    public void LoadCurrentLevel()
+    {
+        UIElements.SetActive(false);// disable UI elements while transitioning between scenes
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex));
+    }
+
     public void Load(int levelIndex)
     {
         StartCoroutine(LoadLevel(levelIndex));
