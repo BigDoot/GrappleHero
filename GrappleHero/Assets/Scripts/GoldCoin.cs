@@ -30,8 +30,8 @@ public class GoldCoin : MonoBehaviour
             AudioManager.instance.Play("Coin");
             Destroy(gameObject);
             player.goldCoins++;
-            Destroy(throwHook.curHook);
-            throwHook.ropeActive = false;
+            //Destroy(throwHook.curHook);
+            //throwHook.ropeActive = false;
         }
     }
 }
