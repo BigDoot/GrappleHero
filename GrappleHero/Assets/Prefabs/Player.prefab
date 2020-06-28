@@ -451,7 +451,7 @@ MonoBehaviour:
   hook: {fileID: 7167158993028837982, guid: 70c5335127f423e4e9765af565d4684f, type: 3}
   ropeActive: 0
   curHook: {fileID: 0}
-  ropeLength: 7
+  ropeLength: 8
   grappleMask:
     serializedVersion: 2
     m_Bits: 2049
