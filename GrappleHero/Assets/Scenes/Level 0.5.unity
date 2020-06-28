@@ -117475,6 +117475,18 @@ PrefabInstance:
       objectReference: {fileID: 718622703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48c07a63f1a583468b9ee29f3783e69, type: 3}
+--- !u!114 &1749153998 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7936706637047686269, guid: d48c07a63f1a583468b9ee29f3783e69,
+    type: 3}
+  m_PrefabInstance: {fileID: 1749153997}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f338a438efeff4488fdd80d71e7aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1750778746
 GameObject:
   m_ObjectHideFlags: 0
@@ -119493,6 +119505,11 @@ PrefabInstance:
       propertyPath: level
       value: Level1Crystals
       objectReference: {fileID: 0}
+    - target: {fileID: 7815379260679478099, guid: 11c284a36534c29408f0d6819693672c,
+        type: 3}
+      propertyPath: lvlloader
+      value: 
+      objectReference: {fileID: 1749153998}
     - target: {fileID: 8211827086765589675, guid: 11c284a36534c29408f0d6819693672c,
         type: 3}
       propertyPath: level

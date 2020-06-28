@@ -417,7 +417,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 112}
-  m_SizeDelta: {x: 348.68726, y: 99.99988}
+  m_SizeDelta: {x: 203.30579, y: 62.502136}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6817947924766880552
 CanvasRenderer:
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72aaa0919d89cc1468fbb3cf3664f4a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: TutorialCrystals
+  level: Level1Crystals
   crystals: {fileID: 6817947925838231675}
   goldCoins: {fileID: 309492671434718659}
   keys: {fileID: 1346919425159796253}
@@ -999,7 +999,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -108}
-  m_SizeDelta: {x: 173.99097, y: 75.87094}
+  m_SizeDelta: {x: 173.99097, y: 62.636444}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6817947925406592098
 CanvasRenderer:
@@ -1381,8 +1381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14, y: 0.0000038146973}
-  m_SizeDelta: {x: 58.610016, y: 16.808739}
+  m_AnchoredPosition: {x: 0, y: 0.0000038146973}
+  m_SizeDelta: {x: 0.000030517578, y: 16.808739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3097944500375803038
 CanvasRenderer:
@@ -1452,7 +1452,6 @@ GameObject:
   - component: {fileID: 1558887116835685959}
   - component: {fileID: 5044357652806698428}
   - component: {fileID: 1731720968465362163}
-  - component: {fileID: 7815379260679478099}
   m_Layer: 5
   m_Name: Restart Button
   m_TagString: Untagged
@@ -1478,7 +1477,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 40.6}
-  m_SizeDelta: {x: 348.68726, y: 99.99988}
+  m_SizeDelta: {x: 419.23523, y: 64.707886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1558887116835685959
 CanvasRenderer:
@@ -1560,8 +1559,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7815379260679478099}
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 6817947925127080575}
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1571,16 +1570,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7815379260679478099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9086942497611563826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beb883a722929d448a0514b96939397f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lvlloader: {fileID: 0}
+      - m_Target: {fileID: 6817947925690853809}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

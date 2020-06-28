@@ -32,8 +32,7 @@ public class Crystals : MonoBehaviour
             AudioManager.instance.Play("Collect");
             Destroy(gameObject);
             player.crystals++;
-            Destroy(throwHook.curHook);
-            throwHook.ropeActive = false;
+            //throwHook.resetRope();
         }
     }
 }

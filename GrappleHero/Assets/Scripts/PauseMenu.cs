@@ -53,4 +53,11 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("QUIT");
         Application.Quit();
     }
+
+    public void Restart()
+    {
+        AudioManager.instance.Play("Select");
+        Time.timeScale = 1f; // set game speed to normal
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

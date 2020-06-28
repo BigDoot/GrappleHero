@@ -396,6 +396,7 @@ MonoBehaviour:
   m_CeilingCheck: {fileID: 5077483070458460221}
   m_CrouchDisableCollider: {fileID: 5077483069767608987}
   m_Grounded: 0
+  hook: {fileID: 5077483069767608981}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -436,6 +437,7 @@ MonoBehaviour:
   crystals: 0
   keys: 0
   goldCoins: 0
+  hook: {fileID: 5077483069767608981}
 --- !u!114 &5077483069767608981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,6 +459,8 @@ MonoBehaviour:
     m_Bits: 2049
   boostForce: 1000
   offset: -90
+  m_Rigidbody2D: {fileID: 5077483069767608988}
+  canJump: 0
 --- !u!114 &5077483069767608980
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal.VersionControl;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,11 +16,14 @@ public class PlayerMovement : MonoBehaviour
     public int crystals;
     public int keys;
     public int goldCoins;
+    public throwhook hook;
+
 
     // Start is called before the first frame update
     void Start()
     {
         //audioManager = FindObjectOfType<AudioManager>();
+
     }
 
     // Update is called once per frame
@@ -29,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && hook.canJump)
         {
             animator.SetBool("IsJumping", true);
             jump = true;

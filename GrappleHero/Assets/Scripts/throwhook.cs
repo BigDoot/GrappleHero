@@ -18,9 +18,15 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
     public float boostForce = 1000f;
 
+    public float airBoostForce = 1000f;
+
     public float offset;
 
     private CharacterController2D cc;
+
+    public Rigidbody2D m_Rigidbody2D;
+
+    public bool canJump;
 
     // Use this for initialization
     void Start()
@@ -32,6 +38,15 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
     // Update is called once per frame
     void Update()
     {
+        boostForce = airBoostForce;
+        if (cc.m_Grounded && ropeActive) // hook out, grounded
+        {
+            canJump = false;
+        } else
+        {
+            canJump = true;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             
@@ -60,10 +75,14 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
         if (Input.GetMouseButtonDown(1))
         {
-            if (ropeActive && cc.m_Grounded == false)
+            if (ropeActive) // && cc.m_Grounded == false)
             {
-               // gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity * 400); // use this for super boost
+                if (!canJump)
+                {
+                    boostForce += 250f; // slightly higher boostforce when player is grounded
+                }
 
+                // gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity * 400); // use this for super boost
                 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, boostForce)); // boost player upwards when rope is withdrawn
                 gameObject.GetComponentInChildren<TrailRenderer>().enabled = false; // disable green trial
                 gameObject.transform.Find("Boost Trail").gameObject.SetActive(true);  // enable boost trial
@@ -74,9 +93,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
 
             //delete rope
 
-            Destroy(curHook);
-
-            ropeActive = false;
+            resetRope();
 
 
 
@@ -86,9 +103,7 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
         {
             if (ropeActive)
             {
-                Destroy(curHook);
-
-                ropeActive = false;
+                resetRope();
             }
         }
 
@@ -98,6 +113,12 @@ public class throwhook : MonoBehaviour // can think of this script as the "weapo
     {
         gameObject.GetComponentInChildren<TrailRenderer>().enabled = true;
         gameObject.transform.Find("Boost Trail").gameObject.SetActive(false);
+    }
+
+    public void resetRope()
+    {
+        Destroy(curHook);
+        ropeActive = false;
     }
 
 }
