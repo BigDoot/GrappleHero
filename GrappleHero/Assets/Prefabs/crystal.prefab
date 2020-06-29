@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 524876580110296917}
   - component: {fileID: 524876580110296914}
   - component: {fileID: 524876580110296915}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: crystal
   m_TagString: Collectibles
   m_Icon: {fileID: 0}
@@ -149,6 +149,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glow
       objectReference: {fileID: 0}
+    - target: {fileID: 1131289153711666353, guid: 4e9ac83ad7845f741a3d0af6d97a74ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1131289153711666359, guid: 4e9ac83ad7845f741a3d0af6d97a74ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -218,6 +223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5856895
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407986425622652981, guid: 4e9ac83ad7845f741a3d0af6d97a74ca,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e9ac83ad7845f741a3d0af6d97a74ca, type: 3}
