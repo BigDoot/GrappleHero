@@ -14,14 +14,18 @@ public class Enemy1 : MonoBehaviour
     public CinemachineVirtualCamera VirtualCamera;
     protected RipplePostProcessor camRipple;
 
+    public HealthBar healthBar;
+
     private void Start()
     {
         camRipple = Camera.main.GetComponent<RipplePostProcessor>();
+        healthBar.SetMaxHealth(health);
     }
     public virtual void TakeDamage(int damage)
     {
         VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().smallshake();
         health -= damage;
+        healthBar.SetHealth(health);
 
         if (health <= 0)
         {

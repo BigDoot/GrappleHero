@@ -292,6 +292,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 6622827312668734347, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622827312668734347, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622827313468330202, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db, type: 3}
 --- !u!1001 &13993845
@@ -5133,6 +5148,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 6622827312668734347, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622827312668734347, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622827313468330202, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db, type: 3}
 --- !u!1001 &439543047
@@ -5773,6 +5803,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Skeleton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4403554854553681691, guid: aeabed291a990664cb1ed188c7ed9bd5,
         type: 3}
@@ -113222,6 +113262,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 6622827312668734347, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622827312668734347, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622827313468330202, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e5ceca6bf0ad3c40b94b8cbad1011db, type: 3}
 --- !u!4 &1122335630 stripped
@@ -114704,6 +114759,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4403554854553681691, guid: aeabed291a990664cb1ed188c7ed9bd5,
         type: 3}
       propertyPath: VirtualCamera
@@ -116097,6 +116162,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4403554854553681691, guid: aeabed291a990664cb1ed188c7ed9bd5,
         type: 3}
       propertyPath: VirtualCamera
@@ -117464,6 +117539,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Big Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966332281723173397, guid: aeabed291a990664cb1ed188c7ed9bd5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4403554854553681691, guid: aeabed291a990664cb1ed188c7ed9bd5,
         type: 3}

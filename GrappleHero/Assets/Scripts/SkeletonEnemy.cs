@@ -7,11 +7,16 @@ public class SkeletonEnemy : Enemy1
 {
     public Animator animator;
 
-
+    private void Start()
+    {
+        camRipple = Camera.main.GetComponent<RipplePostProcessor>();
+        healthBar.SetMaxHealth(health);
+    }
 
     public override void TakeDamage(int damage)
     {
         health -= damage;
+        healthBar.SetHealth(health);
         VirtualCamera.GetComponent<SimpleCameraShakeInCinemachine>().smallshake();
 
         if (health <= 0)
