@@ -1,0 +1,52 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FallingRock : MonoBehaviour
+{
+    public Rigidbody2D rb;
+    private throwhook throwHook;
+    public bool fell;
+    //public Animator animator;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        throwHook = FindObjectOfType<throwhook>(); // find throwhook script
+        fell = false;
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (!fell)
+        {
+            if (other.collider.CompareTag("Player") || other.collider.tag == "Grappling Hook")
+            {
+                //animator.Play("FallingTile");
+
+                //rb.gravityScale = 2;
+                //throwHook.resetRope();
+                Invoke("setGrav", 0.4f);
+                gameObject.tag = "Can Interact";
+                fell = true;
+            }
+        }
+
+    }
+    void setGrav()
+    {
+        rb.gravityScale = 4;
+        rb.mass = 3;
+
+    }
+}
