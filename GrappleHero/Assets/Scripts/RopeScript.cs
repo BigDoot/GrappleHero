@@ -151,7 +151,7 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 
 		}
 
-		if (hitInfo.gameObject.tag == "Collectibles")
+		if (hitInfo.gameObject.tag == "Collectibles" || hitInfo.gameObject.tag == "Enemy")
         {
 			Invoke("resetRope", 0.1f);
 
