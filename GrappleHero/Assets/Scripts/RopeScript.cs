@@ -161,7 +161,7 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 		{
 /*			transform.position = Vector2.MoveTowards(transform.position, hitInfo.gameObject.GetComponent<Transform>().position, 10);
 			Debug.Log(transform.position);*/
-			Invoke("resetRope", 0.5f);
+			Invoke("resetRope", hitInfo.gameObject.GetComponent<FallingRock>().timeb4Fall + 0.1f);
 
 		}
 

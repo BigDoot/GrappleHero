@@ -137,6 +137,7 @@ MonoBehaviour:
   speed: 20
   rb: {fileID: 3154724137603792427}
   damage: 20
+  animator: {fileID: 2034728089153556773}
 --- !u!95 &2034728089153556773
 Animator:
   serializedVersion: 3

@@ -7,6 +7,8 @@ public class FallingRock : MonoBehaviour
     public Rigidbody2D rb;
     private throwhook throwHook;
     public bool fell;
+    public bool breaks = false;
+    public float timeb4Fall = 0.4f;
     //public Animator animator;
 
 
@@ -36,9 +38,16 @@ public class FallingRock : MonoBehaviour
 
                 //rb.gravityScale = 2;
                 //throwHook.resetRope();
-                Invoke("setGrav", 0.4f);
-                gameObject.tag = "Can Interact";
-                fell = true;
+                if (breaks)
+                {
+                    Invoke("destroyself", timeb4Fall);
+                } else
+                {
+                    Invoke("setGrav", timeb4Fall);
+                    gameObject.tag = "Can Interact";
+                    fell = true;
+                }
+
             }
         }
 
@@ -48,5 +57,10 @@ public class FallingRock : MonoBehaviour
         rb.gravityScale = 4;
         rb.mass = 3;
 
+    }
+
+    void destroyself()
+    {
+        Destroy(gameObject);
     }
 }

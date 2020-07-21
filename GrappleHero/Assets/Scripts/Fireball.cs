@@ -8,6 +8,7 @@ public class Fireball : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rb;
     public int damage = 20;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,9 @@ public class Fireball : MonoBehaviour
         {
             player.TakeDamage(damage);
         }
+        animator.SetTrigger("Impact");
+        rb.velocity = Vector3.zero;
         //Debug.Log("Destroy");
-        Destroy(gameObject);
+        Destroy(gameObject, 0.5f);
     }
 }
