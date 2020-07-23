@@ -29,6 +29,7 @@ public class FallingHazard : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            Debug.Log("triggered");
             rb.isKinematic = false;
             if (canKnockDown)
             {
