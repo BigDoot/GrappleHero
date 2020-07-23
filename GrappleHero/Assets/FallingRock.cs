@@ -8,6 +8,7 @@ public class FallingRock : MonoBehaviour
     private throwhook throwHook;
     public bool fell;
     public bool breaks = false;
+    public bool setMassAfterfall = true;
     public float timeb4Fall = 0.4f;
     //public Animator animator;
 
@@ -55,7 +56,11 @@ public class FallingRock : MonoBehaviour
     void setGrav()
     {
         rb.gravityScale = 4;
-        rb.mass = 3;
+        if (setMassAfterfall)
+        {
+            rb.mass = 3;
+
+        }
 
     }
 

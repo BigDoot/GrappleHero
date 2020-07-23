@@ -115,6 +115,7 @@ public class RopeScript : MonoBehaviour { // can think of this script as the "bu
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
+		Debug.Log(hitInfo.name);
 		Enemy1 enemy = hitInfo.GetComponent<Enemy1>();
 		if (enemy != null)
         {
