@@ -39,6 +39,7 @@ public class FallingRock : MonoBehaviour
 
                 //rb.gravityScale = 2;
                 //throwHook.resetRope();
+                AudioManager.instance.Play("Crumble");
                 if (breaks)
                 {
                     Invoke("destroyself", timeb4Fall);
