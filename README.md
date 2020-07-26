@@ -3,7 +3,7 @@
 ![FirstImage](https://i.imgur.com/e9U2IXj.png)
 
 
-NOTE: For a more in-depth and updated readme check out our [google docs.](https://docs.google.com/document/d/1ZienwRL9Hxo4fjxwO5wOCKJs8yj-TBVNEFL3Izf8XXE/edit?usp=sharing)
+**NOTE: For a more in-depth and updated readme with more pictures and gifs check out our** [google docs.](https://docs.google.com/document/d/1ZienwRL9Hxo4fjxwO5wOCKJs8yj-TBVNEFL3Izf8XXE/edit?usp=sharing)
 ## Team Members:
 
 Glendon Chua
@@ -136,10 +136,10 @@ Our target demographic would be the **generation Z young adults**, especially NU
 
 * https://github.com/BigDoot/GrappleHero
 
-* Check out our (v1.2 release)[https://github.com/BigDoot/GrappleHero/releases/tag/v1.2] of the game! Follow the instructions in the link to try out the game for yourself!
+* Check out our [v1.2 release](https://github.com/BigDoot/GrappleHero/releases/tag/v1.2) of the game! Follow the instructions in the link to try out the game for yourself!
 
-* (Gameplay Video and Tutorial level walkthrough)[https://drive.google.com/file/d/1A5YTXAmSHfZV8AeNW3CJJ9Dg0na_HZ9r/view?usp=sharing]
+* [Gameplay Video and Tutorial level walkthrough](https://drive.google.com/file/d/1A5YTXAmSHfZV8AeNW3CJJ9Dg0na_HZ9r/view?usp=sharing)
 
-* Source code control: Unity Collab Project Timeline 
+* Additional Source code control: Unity Collab Project Timeline 
   *Due to privacy, only users within the project are able to view the commits, do approach one of us if you would like to view it.
 
