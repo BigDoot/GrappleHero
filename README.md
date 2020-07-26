@@ -2,6 +2,8 @@
 
 ![FirstImage](https://i.imgur.com/e9U2IXj.png)
 
+
+NOTE: For a more in-depth and updated readme check out our [google docs.](https://docs.google.com/document/d/1ZienwRL9Hxo4fjxwO5wOCKJs8yj-TBVNEFL3Izf8XXE/edit?usp=sharing)
 ## Team Members:
 
 Glendon Chua
@@ -14,11 +16,11 @@ Grapple Hero
 
 ## Proposed Level of Achievement: 
 
-Project Gemini/Apollo 11
+Apollo 11
 
 ## Motivation
 
-The current circuit breaker probably has most of us rolling around in **boredom** every day, constantly trying to maintain our sanity and keep our minds occupied. Even we are! Hence we would like to embrace this opportunity to create a super exciting game to provide **nostalgic entertainment** and help **cure your quarantine boredom!**
+The current pandemic probably has most of us rolling around in **boredom** every day, constantly trying to maintain our sanity and keep our minds occupied. Even we are! Hence we would like to embrace this opportunity to create a super exciting game to provide **nostalgic entertainment** and help **cure your quarantine boredom!**
 
 Our generation grew up playing famous 2D platformers such as Super Mario Bros and we would like to try our hands on making our very own, to help people **relive their childhood**. Furthermore, we decided to put a twist on the classic 2D platformer recipe by including **grappling hooks** which is a feature that is missing on other popular 2D platformers! With limitless possibilities to utilize this amazing tool, you can even **swing** around islands and achieve your lifelong dream of being Spiderman/Tarzan! As for fans of action-adventure games like tomb raider, our game will undoubtedly satisfy your **adventuring** needs! 
 
@@ -58,15 +60,14 @@ Our target demographic would be the **generation Z young adults**, especially NU
 
 ![IM2](https://media.giphy.com/media/ZCwoHHgSmesLUGehCw/giphy.gif)
 
-* **WASD** or **arrow keys** to move
-* **Spacebar** to jump, **S** or **down arrow** to crouch
+* **WASD** and **Spacebar** to jump
 * Grapple hook - **Left Mouse** button to shoot
   * Release grapple hook - **Spacebar**
   * Release grapple hook and boost upwards - **Right Mouse** button
-  * Control swing with **A/D** or **left/right arrow keys**
+  * Control swing with **A/D**
 * Some items on the level can be interacted with!
   * Hit item away - Shoot grapple hook normally at item
-  * Pull items to player - Crouch while shooting grapple hook at item
+  * Pull items to player - Hold S while shooting grapple hook at item
 * **Boost Jump Tech** - Jump then aim **Left Mouse** to the ground and press both **Left and Right Mouse** buttons in quick succession
 
 ![IM3](https://media.giphy.com/media/elmIceiKRsmPQpSjfH/giphy.gif)
@@ -75,52 +76,51 @@ Our target demographic would be the **generation Z young adults**, especially NU
 
 **Basic Features(by next milestone):**
 
-* Tutorial level and **first few levels playable**
+* **Tutorial, Levels 1-4, Boss level, Escape level playable:**
 
-  * **Basic level design** with adventuring and exploration themes in mind. Basic storyline.
+  * **Well thought out level design with adventuring and exploration themes in mind.** Coherent and interesting plot line for player to follow. Levels are challenging and require good control over the character and the grappling hook.The levels get progressively more challenging.
 
-  * **Basic level hazards. enemy design and AI**
+  * **Multiple level hazards, good variety of enemies and AI** - Spikes, Rivers, Falling Hazards, Crumbling Platforms, Ball Monster, Skeletons, Crow Monster, Ghost, Boss enemy
 
-  * **Basic boss battles**
+  * **Basic boss fight**
 
-  * **Fleshed out grappling hook mechanics**- Utilize Unity’s physics engine to create satisfying player movement with grappling hook. Hook can be used to swing around the level, attack enemies, grab items and collectibles
+  * **Fleshed out grappling hook mechanics**- We utilized Unity’s physics engine to create **satisfying player movement** with the grappling hook. The grappling hook can be used to **swing around** the level, **attack/push enemies, grab items and collectibles**, truly an **all-around versatile tool!**
 
-  * **Basic game soundtrack** that captures the mysterious atmosphere of a deserted legendary island
 
-* **Main menu**, level select, end-credits, pause menu, game-over screen, and level transitions implemented
+  * **Basic game soundtrack** that captures the mysterious atmosphere of a deserted legendary island retro style! We added plenty of sounds effects and a main theme to make the game more immersive!
+  * **Levels are well polished** with sound effects, particle effects, camera shakes, lighting effects, shadows, hand-drawn animations and sprites that improve game immersion!
 
-* **Collectibles system**
+* **Fully functional main menu, level select, pause menu, credits, and level transitions implemented. Players can track their highscores in the highscore menu and can freely restart a level from the pause menu if they get stuck.**
 
-  * Collect crystals for a highscore on the scoreboard
+* **Collectibles system and highscore tracking**
+
+  * Collect crystals and rare gold coins littered around the levels! Highscores are tracked. Players have the ability to reset their highscores as well. Compete against your friends to see who can collect the most crystals! Every level has 3 hidden gold coins to be found! 
 
 ![IM4](https://media.giphy.com/media/S8fiAs4kOGBtDf5gFr/giphy.gif)
 
 
-**Advanced Features/Future Plans:**
+**Future Plans**
 
-* Tutorial level and all **4 levels fully playable**
+* **New area, more creative levels and unique enemies**
 
-  * **Improved storyline** and utilize game mechanics to do better storytelling
+  * More easter eggs/secrets in each level to be found
+  
+  * Improved enemy AI
+  
+  * Grappling hook upgrades
+  
+  * Difficulty setting
+  
+* **In depth collectibles system**
 
-  * **Fully fleshed out levels** with hidden secrets for players to find
+  * Give more purpose to crystals and gold coins other than for highscores
+  
+  * Potential upgrade system e.g. upgrade grapple range, increase run speed
+  
+  * Crystals can be used to buy player skins
+  
+* **Port to android**
 
-  * **Multiple level hazards, unique enemies and AI**
-
-  * Implement **well thought out boss battles**
-
-  * **Grappling hook upgrades**
-
-  * Good soundtrack and music pleasing to the ears
-
-* **Touch up and polish all the levels, menus and transitions** mentioned above with sounds and game effects
-
-  * Use of Unity’s particle system, screen shakes etc to make gameplay more satisfying
-
-* More **in depth collectibles system**
-
-  * Different kinds of crystals, rare treasures
-
-* **Possible port to android**
 
 ## Tech Stack
 
@@ -134,8 +134,12 @@ Our target demographic would be the **generation Z young adults**, especially NU
 
 ## Technical Proof of concept
 
-https://github.com/BigDoot/GrappleHero
+* https://github.com/BigDoot/GrappleHero
 
-[Gameplay Video](https://drive.google.com/file/d/1PzHtkjw-9Zdpm39fc-CiCHmbEiC862zi/view?usp=sharing)
+* Check out our (v1.2 release)[https://github.com/BigDoot/GrappleHero/releases/tag/v1.2] of the game! Follow the instructions in the link to try out the game for yourself!
 
+* (Gameplay Video and Tutorial level walkthrough)[https://drive.google.com/file/d/1A5YTXAmSHfZV8AeNW3CJJ9Dg0na_HZ9r/view?usp=sharing]
+
+* Source code control: Unity Collab Project Timeline 
+  *Due to privacy, only users within the project are able to view the commits, do approach one of us if you would like to view it.
 
