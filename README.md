@@ -74,7 +74,7 @@ Our target demographic would be the **generation Z young adults**, especially NU
 
 ## Key Features
 
-**Basic Features(by next milestone):**
+**Basic Features**
 
 * **Tutorial, Levels 1-4, Boss level, Escape level playable:**
 
